@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+# hello_world_image.py
+
+import pygtk
+pygtk.require('2.0')
+import gtk
+
+class image:
+    def __init__(self):
+        self.window = gtk.Window()
+	self.window.set_title("Pangolin dice ...")
+	self.window.set_position(gtk.WIN_POS_CENTER)
+        self.event_box = gtk.EventBox()
+        self.image = gtk.Image()
+        self.image_num = 0
+        self.image.set_from_file(self.make_image_name(self.image_num))
+        self.event_box.connect("button_release_event", self.change_image)
+        self.event_box.add(self.image)
+        self.window.set_keep_below(True)
+        self.window.add(self.event_box)
+        self.window.show_all()
+
+    def make_image_name(self, image_number):
+        return "/etc/bus/apps/pangolinDice/photos/consejo_" + str(image_number) + ".jpg"
+
+    def change_image(self, widget, event):
+        self.image_num += 1
+	if self.image_num >= 3: 
+		self.image_num=0
+        self.image.set_from_file(self.make_image_name(self.image_num))
+        return True
+
+def main():
+    gtk.main()
+    return 0
+
+if __name__ == "__main__":
+    image()
+    main()
