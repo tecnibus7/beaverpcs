@@ -21,7 +21,7 @@ class image:
         self.window.show_all()
 
     def make_image_name(self, image_number):
-        return "/etc/bus/apps/pangolinDice/photos/consejo_" + str(image_number) + ".jpg"
+        return "/etc/bus/beaverpcs/pangolinDice/photos/consejo_" + str(image_number) + ".jpg"
 
     def change_image(self, widget, event):
         self.image_num += 1
