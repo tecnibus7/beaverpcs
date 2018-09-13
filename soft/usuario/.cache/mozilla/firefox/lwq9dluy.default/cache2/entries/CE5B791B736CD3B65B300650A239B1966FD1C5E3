@@ -1,0 +1,615 @@
+
+
+
+<!doctype html>
+
+<html class="windows x86 no-js" lang="es-ES" dir="ltr" data-latest-firefox="62.0" data-esr-versions="60.2.0" data-gtm-container-id="GTM-MW3R8V"  data-stub-attribution-rate="1.0">
+  <head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="/media/js/BUNDLES/site.8391e739b374.js" charset="utf-8"></script>
+
+    <!--[if !lte IE 8]><!-->
+    
+    <!--<![endif]-->
+
+<!--
+             _.-~-.
+           7''  Q..\
+        _7         (_
+      _7  _/    _q.  /
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+
+Hi there, nice to meet you!
+
+Interested in having a direct impact on hundreds of millions of users? Join
+Mozilla, and become part of a global community that’s helping to build a
+brighter future for the Web.
+
+Visit https://careers.mozilla.org to learn about our current job openings.
+Visit https://www.mozilla.org/contribute for more ways to get involved and
+help support Mozilla.
+-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>
+  Aviso de privacidad de Firefox
+ — Mozilla</title>
+    <meta name="description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:url" content="https://www.mozilla.org/es-ES/privacy/firefox/">
+    <meta property="og:image" content="https://www.mozilla.org/media/img/mozorg/mozilla-256.4720741d4108.jpg">
+    <meta property="og:title" content="
+  Aviso de privacidad de Firefox
+">
+    <meta property="og:description" content="">
+    <meta property="fb:page_id" content="262134952380">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mozilla">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <meta name="twitter:app:name:iphone" content="Firefox">
+    <meta name="twitter:app:id:iphone" content="989804926">
+    <meta name="twitter:app:name:ipad" content="Firefox">
+    <meta name="twitter:app:id:ipad" content="989804926">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/media/img/favicon/apple-touch-icon-180x180.8772ec154918.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/media/img/favicon/favicon-196x196.c80e6abe0767.png">
+    <link rel="shortcut icon" href="/media/img/favicon.d4f1f46b91f4.ico">
+        <link rel="canonical" href="https://www.mozilla.org/es-ES/privacy/firefox/">
+    <link rel="alternate" hreflang="x-default" href="https://www.mozilla.org/en-US/privacy/firefox/">
+    <link rel="alternate" hreflang="bn-BD" href="https://www.mozilla.org/bn-BD/privacy/firefox/" title="বাংলা (বাংলাদেশ)">
+        <link rel="alternate" hreflang="bn-IN" href="https://www.mozilla.org/bn-IN/privacy/firefox/" title="বাংলা (ভারত)">
+        <link rel="alternate" hreflang="cs" href="https://www.mozilla.org/cs/privacy/firefox/" title="Čeština">
+        <link rel="alternate" hreflang="de" href="https://www.mozilla.org/de/privacy/firefox/" title="Deutsch">
+        <link rel="alternate" hreflang="el" href="https://www.mozilla.org/el/privacy/firefox/" title="Ελληνικά">
+        <link rel="alternate" hreflang="en" href="https://www.mozilla.org/en-US/privacy/firefox/" title="English">
+        <link rel="alternate" hreflang="en-US" href="https://www.mozilla.org/en-US/privacy/firefox/" title="English (USA)">
+        <link rel="alternate" hreflang="es" href="https://www.mozilla.org/es-ES/privacy/firefox/" title="Español">
+        <link rel="alternate" hreflang="es-ES" href="https://www.mozilla.org/es-ES/privacy/firefox/" title="Español (de España)">
+        <link rel="alternate" hreflang="es-MX" href="https://www.mozilla.org/es-MX/privacy/firefox/" title="Español (de México)">
+        <link rel="alternate" hreflang="fr" href="https://www.mozilla.org/fr/privacy/firefox/" title="Français">
+        <link rel="alternate" hreflang="hi" href="https://www.mozilla.org/hi-IN/privacy/firefox/" title="हिन्दी">
+        <link rel="alternate" hreflang="hi-IN" href="https://www.mozilla.org/hi-IN/privacy/firefox/" title="हिन्दी (भारत)">
+        <link rel="alternate" hreflang="hr" href="https://www.mozilla.org/hr/privacy/firefox/" title="Hrvatski">
+        <link rel="alternate" hreflang="hu" href="https://www.mozilla.org/hu/privacy/firefox/" title="magyar">
+        <link rel="alternate" hreflang="id" href="https://www.mozilla.org/id/privacy/firefox/" title="Bahasa Indonesia">
+        <link rel="alternate" hreflang="it" href="https://www.mozilla.org/it/privacy/firefox/" title="Italiano">
+        <link rel="alternate" hreflang="ja" href="https://www.mozilla.org/ja/privacy/firefox/" title="日本語">
+        <link rel="alternate" hreflang="mk" href="https://www.mozilla.org/mk/privacy/firefox/" title="Македонски">
+        <link rel="alternate" hreflang="nl" href="https://www.mozilla.org/nl/privacy/firefox/" title="Nederlands">
+        <link rel="alternate" hreflang="pl" href="https://www.mozilla.org/pl/privacy/firefox/" title="Polski">
+        <link rel="alternate" hreflang="pt-BR" href="https://www.mozilla.org/pt-BR/privacy/firefox/" title="Português (do Brasil)">
+        <link rel="alternate" hreflang="ro" href="https://www.mozilla.org/ro/privacy/firefox/" title="Română">
+        <link rel="alternate" hreflang="ru" href="https://www.mozilla.org/ru/privacy/firefox/" title="Русский">
+        <link rel="alternate" hreflang="sr" href="https://www.mozilla.org/sr/privacy/firefox/" title="Српски">
+        <link rel="alternate" hreflang="ta" href="https://www.mozilla.org/ta/privacy/firefox/" title="தமிழ்">
+        <link rel="alternate" hreflang="tr" href="https://www.mozilla.org/tr/privacy/firefox/" title="Türkçe">
+        <link rel="alternate" hreflang="zh" href="https://www.mozilla.org/zh-CN/privacy/firefox/" title="中文">
+          <link rel="alternate" hreflang="zh-CN" href="https://www.mozilla.org/zh-CN/privacy/firefox/" title="中文 (简体)">
+          <link rel="alternate" hreflang="zh-TW" href="https://www.mozilla.org/zh-TW/privacy/firefox/" title="正體中文 (繁體)">
+        
+    
+
+    
+
+    <!--[if lte IE 8]>
+      
+      <script src="/media/js/libs/html5shiv.42594ff91377.js"></script>
+
+      
+      
+      <link href="/media/css/BUNDLES/oldIE-pebbles.b7e68dca9b65.css" rel="stylesheet" type="text/css" />
+      
+    <![endif]-->
+
+    <!--[if !lte IE 8]><!-->
+    
+    
+      <link href="/media/css/BUNDLES/pebbles.03d45fb8fff9.css" rel="stylesheet" type="text/css" />
+    
+
+    
+    
+  <link href="/media/css/BUNDLES/privacy_quantum.6c743cf78f72.css" rel="stylesheet" type="text/css" />
+
+    <!--<![endif]-->
+
+    
+      
+    
+
+    
+    
+      <!--
+Read more about our custom configuration and use of Google Analytics here:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1122305#c8
+-->
+
+<!-- Google Tag Manager -->
+<!-- Customized for Mozilla.org-->
+<!-- Region Container: NONE -->
+<!-- Rollup Container: System Filtered -->
+<!-- Site Container: NONE -->
+
+
+  <script type="text/javascript" src="/media/js/BUNDLES/gtm-snippet.9f9cf2026c5f.js" charset="utf-8"></script>
+
+<!-- End Google Tag Manager -->
+    
+  </head>
+
+  <body class="html-ltr privacy-policy product-firefox" >
+    <div id="strings"
+      data-global-close="Cerrar"
+      data-global-next="Siguiente"
+      data-global-previous="Anterior"
+      data-global-update-firefox="Actualiza tu Firefox"
+      data-global-fx-out-of-date-banner-heading="Tu Firefox está desactualizado."
+      data-global-fx-out-of-date-banner-message="Obtén la versión más reciente para seguir navegando de manera segura."
+      data-global-fx-out-of-date-banner-confirm="Actualizar Firefox"
+      
+  data-tabpanel-open-text="Mostrar todo"
+  data-tabpanel-close-text="Ocultar todo"
+  data-choices-copy="Elige cómo quieres compartir esta información en Firefox."
+  data-choices-button="Seleccionar…"
+></div>
+
+  
+  
+    <header class="section masthead" id="masthead">
+      <div class="content">
+
+      
+
+      
+          <nav class="masthead-nav-main" id="nav-main">
+            <span class="toggle" role="button" aria-controls="nav-main-menu" aria-expanded="false" tabindex="0">Menú</span>
+            <ul class="nav-main-menu" id="nav-main-menu">
+              <li class="first firefox-item">
+                <a href="/es-ES/firefox/" data-link-type="nav" data-link-name="Firefox">Firefox</a>
+              </li>
+              <li class="internet-health-item">
+                <a href="/es-ES/internet-health/" data-link-type="nav" data-link-name="Internet Health">Integridad de Internet</a>
+              </li>
+              <li class="technology-item">
+                <a href="/es-ES/technology/" data-link-type="nav" data-link-name="Web Innovations">Innovaciones web</a>
+              </li>
+              <li class="last donate-item">
+                <a href="https://donate.mozilla.org/es-ES/?presets=50,30,20,10&amp;amount=30&amp;utm_source=mozilla.org&amp;utm_medium=referral&amp;utm_content=header&amp;currency=eur" data-link-type="nav" data-link-name="Donate">Donar</a>
+              </li>
+            </ul>
+          </nav>
+      
+
+      
+        <h2 class="masthead-logo"><a href="/es-ES/"><img src="/media/img/pebbles/moz-wordmark-dark-reverse.2cbc28bb9895.svg" alt="Mozilla" width="94" height="30"></a></h2>
+      
+
+      </div>
+    </header>
+  
+  <div id="outer-wrapper">
+    
+<article class="section-content" itemtype="http://schema.org/Article">
+
+<header class="privacy-head">
+  <div class="content-girdle policy-title">
+    <h1 itemprop="name"><span class="privacy-header-policy">Aviso de privacidad de</span> <span class="privacy-header-firefox">Firefox</span></h1>
+    <time datetime="2017-09-28" itemprop="dateModified">Vigente a partir del 28 de septiembre de 2017</time>
+  </div>
+
+  <div class="privacy-lead-in">
+    <div class="content-girdle">
+      <header><h2>En Mozilla, creemos que la privacidad es fundamental para tener un Internet sano.</h2></header>
+      <div class="optional-lead-in">
+        <p>Por este motivo hemos creado Firefox y todos nuestros productos, para darle mayor control sobre la información que comparte online y la información que comparte con nosotros. Nuestro objetivo es recopilar la información que necesitamos para poder mejorar Firefox para todo el mundo.</p>
+      </div>
+      <p>En este Aviso de privacidad, especificamos qué datos comparte Firefox y los ajustes que le permiten a usted compartir menos. Asimismo nos adherimos a las prácticas mencionadas en la <a href="/privacy/">política de privacidad de Mozilla</a> sobre cómo recibir, usar y compartir la información que recopilamos de Firefox.</p>
+    </div>
+  </div>
+</header>
+
+<main class="privacy-body" itemprop="articleBody">
+  <div class="content-girdle">
+  
+  
+    <section id="firefox-comparte-por-defecto-ciertos-datos-con-el-fin-de"><header><h2>Firefox comparte por defecto ciertos datos con el fin de:</h2></header>
+<section id="health-report"><header><h3>Mejorar el rendimiento y la estabilidad para los usuarios de todo el mundo</h3></header><div><ul>
+<li>
+<p><strong>Datos de interacción</strong>: Firefox nos envía datos sobre su interacción con Firefox (p. ej., número de pestañas y ventanas abiertas, número de páginas web visitadas, número y tipo de complementos de Firefox instalados y duración de las sesiones) y las funciones de Firefox ofrecidas por Mozilla y nuestros socios (p. ej., interacción con las funciones de búsqueda de Firefox y referencias de búsqueda de socios).  </p>
+</li>
+<li>
+<p><strong>Datos técnicos</strong>: Firefox nos envía datos sobre su versión e idioma de Firefox, sistema operativo y configuración de hardware del dispositivo, memoria, información básica sobre cierres y fallos, resultados de procesos automatizados como actualizaciones, navegación segura y activación.  Cuando Firefox nos envía datos, su dirección de IP se guarda temporalmente como parte de los registros del servidor.  </p>
+</li>
+</ul><p id="telemetry">Consulte la documentación de telemetría para <a href="https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/index.html">ordenadores de escritorio</a>, <a href="https://firefox-source-docs.mozilla.org/mobile/android/fennec/index.html">Android</a>, o <a href="https://github.com/mozilla-mobile/firefox-ios/wiki/Telemetry">iOS</a> o visite esta página <a href="https://support.mozilla.org/kb/send-performance-data-improve-firefox"></a>para obtener información sobre cómo deshabilitar la recopilación de datos.</p></div>
+
+
+</section><section id="defaultsearch"><header><h3>Establece un proveedor de búsquedas predeterminado</h3></header><div><ul>
+<li><strong>Datos de ubicación</strong>:  Cuando usa Firefox por pirmera vez, el navegador usa su dirección IP para establecer su proveedor de búsquedas predeterminado según su país.  <a href="https://support.mozilla.org/kb/change-your-default-search-settings-firefox">Visite esta página</a> para obtener más información.</li>
+</ul></div>
+
+</section><section id="sugerir-contenido-relevante"><header><h3>Sugerir contenido relevante</h3></header><div><p>Firefox muestra contenido, como “Snippets” (mensajes de Mozilla), Sitios preferidos (sitios web sugeridos por Mozilla a aquellos usuarios que usan Firefox por primera vez) y Recomendaciones de Pocket.</p><ul>
+<li>
+<p><strong>Datos de ubicación</strong>: Firefox usa su dirección IP para sugerir contenido relevante según su país.</p>
+</li>
+<li>
+<p><strong>Datos técnicos y de interacción</strong>: Firefox nos envía datos sobre la posición, el tamaño y la ubicación de contenido que sugerimos, además de datos básicos sobre su interacción con contenido sugerido por Firefox. Esto incluye la frecuencia con la que el contenido sugerido es visualizado y recibe clics.</p>
+</li>
+<li>
+<p id="snippets"><strong>Datos de páginas web para Snippets</strong>: Cuando decide pulsar sobre el enlace de un Snippet, recibimos datos sobre dicho enlace. Esta información no está asociada a ninguna otra información sobre usted. <a href="https://abouthome-snippets-service.readthedocs.io/en/latest/data_collection.html">Visite esta página</a> para obtener más información.</p>
+</li>
+<li>
+<p><strong>Datos de páginas web para Recomendaciones de Pocket</strong>: Proporcionamos recomendaciones de contenido en base a su historial de navegación. El proceso de elección del contenido que debe ver se realiza localmente en base a su historial de navegación de Firefox y ni Mozilla ni Pocket recibe una copia de este historial. Lo que sí recibimos son datos sobre las recomendaciones que visualiza y con las que interactúa. <a href="https://help.getpocket.com/article/1142-firefox-new-tab-recommendations">Visite esta página</a>.</p>
+</li>
+</ul></div>
+
+
+</section><section id="security"><header><h3>Mejorar la seguridad de todos los usuarios</h3></header><div><ul>
+<li>
+<p id="auto-updates"><strong>Datos técnicos para actualizaciones</strong>: Las versiones de Firefox para ordenadores de escritorio buscan periódicamente actualizaciones conectándose con los servidores de Mozilla. Su versión de Firefox, idioma y sistema operativo de su dispositivo se usan para aplicar las actualizaciones correctas. Es posible que las versiones de Firefox para dispositivos móviles se conecten a otro servicio en el caso que usara uno para descargar e instalar Firefox. <a href="https://support.mozilla.org/kb/how-stop-firefox-automatically-making-connections#w_auto-update-checking">Visite esta página</a>para obtener más información.</p>
+</li>
+<li>
+<p><strong>Datos técnicos para la lista de complementos bloqueados</strong>: Firefox para ordenadores de escritorio y Android se conectan periódicamente con Mozilla para protegerle a usted y a otros usuarios de complementos malintencionados.  Se requieren datos como su versión de Firefox, idioma, el sistema operativo de su dispositivo, y la lista de los complementos instalados para aplicar y actualizar la lista de complementos bloqueados. <a href="https://support.mozilla.org/kb/how-stop-firefox-making-automatic-connections">Visite esta página</a>para obtener más información. </p>
+</li>
+<li>
+<p><strong>Datos técnicos y de páginas web para el servicio Google SafeBrowsing</strong>: Para ayudar a protegerle de descargas malintencionadas, Firefox envía información básica sobre las descargas desconocidas al servicio Google SafeBrowsing, incluyendo el nombre del archivo y la dirección URL desde la cual se descargó.  </p>
+<p><a href="https://support.mozilla.org/kb/how-does-phishing-and-malware-protection-work">Visite esta página</a> para obtener más información al respecto. Para consultar la <a href="https://www.google.com/policies/privacy/">Política de privacidad de Google, visite esta página</a>. Si desactiva esta opción, Firefox no podrá advertirle de sitios web y archivos descargados potencialmente ilegítimos o maliciosos.</p>
+</li>
+<li>
+<p><strong>Datos técnicos y de páginas web para Autoridades certificadoras</strong>: Cuando visita un sitio web seguro (habitualmente identificado con una URL que compienza por "HTTPS"), Firefox valida el certificado <a href="https://support.mozilla.org/kb/secure-website-certificate">del sitio web</a>. Es posible que Firefox envíe cierta información sobre el sitio web a las Autoridades certificadores identificadas por ese sitio web.  </p>
+<p>Al desactivar esta opción aumenta el riesgo de que se intercepte su información privada. <a href="https://support.mozilla.org/kb/advanced-settings-browsing-network-updates-encryption#w_certificates-tab">Visite esta página</a>para obtener más información.</p>
+</li>
+</ul></div>
+
+</section><section id="crash-reporter"><header><h3>Informes de error</h3></header><div><p>Las versiones de Firefox para ordenadores de escritorio le pedirán por defecto que envíe a Mozilla un informe con información detallada sobre el fallo, pero siempre tiene la opción de rechazar esta petición.</p><ul>
+<li>
+<p><strong>Datos confidenciales</strong>:  Los informes de error incluyen un «archivo de volcado» del contenido de memoria de Firefox en el momento en el que se produce el fallo. Este archivo puede incluir datos que le identifiquen o que sean de alguna manera confidenciales.</p>
+</li>
+<li>
+<p><strong>Datos de páginas web</strong>:  Los informes de error incluye la URLque se encontraba activa en el momento del fallo.</p>
+</li>
+<li>
+<p><strong>Datos técnicos</strong>:  Los informes de error incluyen datos sobre el motivo del fallo de Firefox y sobre el estado y ejecución de la memoria del dispositivo durante el fallo.</p>
+</li>
+</ul><p>La documentación completa está disponible <a href="https://firefox-source-docs.mozilla.org/toolkit/crashreporter/crashreporter/index.html">aquí</a>.</p></div>
+
+
+
+</section><section id="apoya-nuestra-publicidad-y-mide-su-efectividad"><header><h3>Apoya nuestra publicidad y mide su efectividad</h3></header><div><ul>
+<li>
+<p id="referraltracking"><strong>Datos de campaña y de referencia</strong>: Estos datos ayudan a Mozilla a entender la efectividad de nuestras campañas publicitarias.</p>
+<p><em>En ordenadores de escritorio</em>: Firefox envía por defecto datos HTTP a Mozilla que pueden estar incluidos en el instalador de Firefox.  Esto nos permite determinar el dominio del sitio web o la campaña publicitaria (en caso dado) que le envió a nuestra página de descarga. Consulte la <a href="https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/data/environment.html#attribution">documentación</a> o <a href="https://support.mozilla.org/kb/desktop-privacy">visite la siguiente página</a> before installationsi desea inhabilitar este servicio.</p>
+<p id="thirdparty"><em>En dispositivos iOS y Android</em>: Firefox envía por defecto datos de campañas móviles a Adjust, nuestro proveedor de análisis de datos, que tiene su propia <a href="https://www.adjust.com/privacy_policy/">política de privacidad</a>.  Los datos de campañas móviles incluyen la ID de publicidad de Google, la dirección IP, fecha y hora, país, idioma/provincia, sistema operativo y versión de la aplicación. Consulte la <a href="https://firefox-source-docs.mozilla.org/mobile/android/fennec/adjust.html">documentación</a>para obtener más información.</p>
+</li>
+<li>
+<p><strong>Datos técnicos y de interacción</strong>: </p>
+<p><em>En sistemas iOS y Android</em>: Firefox envía por defecto datos sobre las funciones que usa en Firefox a Leanplum, nuestro proveedor de marketing, que tiene su propia <a href="https://www.leanplum.com/privacy/">política de privacidad</a>.  Estos datos nos permiten probar distintas funciones y experiencias, así como proporcionar mensajes y recomendaciones personalizados para mejorar su experiencia con Firefox.</p>
+<p>Consulte la documentación para sistemas<a href="https://github.com/mozilla-mobile/firefox-ios/blob/master/MMA.md">iOS</a> y <a href="https://firefox-source-docs.mozilla.org/mobile/android/fennec/mma.html">Android</a> para obtener más información, o visite la siguiente página <a href="https://support.mozilla.org/kb/send-anonymous-usage-data-firefox-mobile-devices"></a>si desea deshabilitar esta función.</p>
+</li>
+</ul><hr/></div>
+
+
+</section></section>
+  
+    <section id="optional-features"><header><h2>Si usa estas funciones, Firefox compartirá ciertos datos para ofrecer  funcionalidad:</h2></header>
+<section id="search"><header><h3>Search</h3></header><div><p>Puede realizar búsquedas directamente desde distintos lugares de Firefox, incluidas las barras de búsqueda Awesome Bar y Search Bar ubicadas en una pestaña nueva.  <em>Mozilla no recibe sus solicitudes de búsqueda.</em> Los datos de búsqueda se envían a su buscador, que tiene su propia política de privacidad.  </p><ul>
+<li>
+<p id="searchsuggestions"><strong>Sugerencias de búsqueda</strong>: Firefox envía por defecto las consultas a su buscador para ayudarle a descubrir frases comunes que otras personas han buscado y para mejorar su experiencia de búsqueda. Estos datos no se enviarán si el buscador que ha seleccionado no admite sugerencias de búsqueda.</p>
+<p><a href="https://support.mozilla.org/kb/use-popular-search-suggestions-firefox-search-bar">Consulte este artículo</a> para obtener más información. Aquí encontrará también información sobre cómo inhabilitar esta función.</p>
+</li>
+</ul></div>
+
+
+</section><section id="cuentas-de-firefox"><header><h3>Cuentas de Firefox</h3></header><div><ul>
+<li>
+<p><strong>Datos de cuentas de Firefox</strong>: Al crear una cuenta de Firefox, Mozilla recibe su dirección de correo electrónico y un hash de su contraseña.  Puede elegir incluir un nombre para mostrar y una imagen de perfil.  Su dirección de correo electrónico se enviará a nuestro proveedor de correo electrónico, SalesForce Marketing Cloud, que tiene su propia <a href="https://www.marketingcloud.com/privacy-policy/website-privacy-statement/">política de privacidad</a>. Si usa su cuenta de Firefox para acceder a otros sitios web o servicios (p. Ej., AMO y Pocket), estos servicios nos envían la fecha y hora de su inicio de sesión. </p>
+</li>
+<li>
+<p><strong>Datos de ubicación</strong>: Por motivos de seguridad, guardamos las direcciones IP que usa para acceder su cuenta de Firefox con el fin de localizar su ciudad y país.  Usamos estos datos para enviarle alertas de correo electrónica cuando detectamos actividad sospechosa, como inicios de sesión en su cuenta desde otras ubicaciones.</p>
+</li>
+<li>
+<p><strong>Datos de interacción</strong>: Recibimos datos sobre sus visitas e interacciones con el sitio web de su cuenta de Firefox y sus preferencias de menú, e interacciones con contenido integrado, correo electrónico y mensajes SMS. <a href="/privacy/websites/">Consulte este artículo</a> para obtener más información sobre las prácticas de datos de Mozilla relacionadas con sitios web y correo electrónico.  </p>
+</li>
+<li>
+<p><strong>Datos técnicos</strong>: Para mostrar qué dispositivos se sincronizan con su cuenta de Firefox y sus funcionalidades, guardamos información sobre el sistema operativo, navegador y versión de su dispositivo, fecha y hora, idioma, y la misma información para los dispositivos asociados a su cuenta.  </p>
+</li>
+</ul><p>Consulte la <a href="https://github.com/mozilla/fxa-auth-server/blob/master/docs/metrics-events.md">documentación completa</a> o <a href="https://support.mozilla.org/kb/access-mozilla-services-firefox-accounts">visite esta página</a> para obtener más información al respecto. Aquí también encontrará información sobre cómo <a href="https://support.mozilla.org/kb/how-do-i-delete-my-firefox-account">eliminar su cuenta</a>.</p></div>
+
+
+</section><section id="sync"><header><h3>Sync</h3></header><div><ul>
+<li>
+<p><strong>Datos sincronizados</strong>: Si habilita la función Sync, Mozilla recibe la información que se sincroniza entre sus dispositivos de forma cifrada. Esta información puede incluir pestañas, complementos, contraseñas, información de pago de autorelleno, marcadores, historial y preferencias de Firefox.  Al eliminar su cuenta de Firefox, se eliminará todo el contenido de sincronización de Firefox relacionado. Puede también consultar la siguiente <a href="https://moz-services-docs.readthedocs.io/en/latest/sync/">documentación</a>para obtener más información.</p>
+</li>
+<li>
+<p><strong>Datos técnicos y de interacción</strong>: Si habilita Sync, Firefox enviará periódicamente cierta información básica usando Telemetría sobre los intentos más recientes de sincronización de sus datos, como cuándo se realizó, si se realizó correctamente o no, y qué tipo de dispositivo intenta sincronizar. Puede también leer <a href="https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/data/sync-ping.html">esta documentación</a>para obtener más información.</p>
+</li>
+</ul><p><a href="https://support.mozilla.org/kb/how-do-i-set-sync-my-computer">Visite este página</a> para obtener más información. Aquí también encontrará información sobre cómo habilitar y deshabilitar Sync.</p></div>
+
+
+</section><section id="location-services"><header><h3>Ubicación</h3></header><div><ul>
+<li><strong>Datos de ubicación para el servicio de geolocalización de Google</strong>: Firefox siempre pregunta antes de determinar y compartir su ubicación con los sitios web que deseen conocerla (por ejemplo, si un sitio web de mapas requiere su ubicación para dar direcciones).  Para determinar su ubicación, es posible que Firefox use las funciones de geolocalización de su sistema operativo, redes de Wi-fi, antenas de telefonía móvil y su dirección IP, y que envíe estos datos al servicio de geolocalización de Google, que tiene su propia <a href="https://www.google.com/privacy/lsf.html">política de privacidad</a>.</li>
+</ul><p><a href="/firefox/geolocation/">Visite esta página</a>para obtener más información.</p></div>
+
+
+</section><section id="screenshots"><header><h3>Firefox Screenshots</h3></header><div><ul>
+<li>
+<p><strong>Cargar capturas de pantalla</strong>: Las capturas de pantalla que selecciona para cargar se envían a Mozilla y se guardan por un período de tiempo limitado, que usted puede cambiar.  Es posible que accedamos a las capturas de pantalla cargadas cuando sea necesario con el fin de asegurar el correcto funcionamiento del servicio.  Puede eliminar las capturas de pantalla cargadas en cualquier momento.  </p>
+</li>
+<li>
+<p><strong>Datos de interacción</strong>: Recibimos datos como el número de visitas al sitio web de Firefox Screenshots, la frecuencia con la que usted y otros cargan, acceden y comparten las capturas de pantalla, y sus interacciones con botones, mosaicos y el ratón en  relación con las capturas de pantalla.</p>
+<p>Nuestro<a href="/privacy/websites/">aviso de privacidad de sitios web</a> describe los tipos de datos que se podrían recopilar adicionalmente para calcular el número de visitas que recibe el sitio web de Firefox Screenshots.</p>
+</li>
+<li>
+<p><strong>Datos técnicos</strong>: Recibimos datos como el tamaño medio y el número de las capturas de pantalla cargadas, la versión de su navegador de Firefox, el sistema operativo de su dispositivo y los errores producidos.  Se recopila temporalmente la dirección IP que accede al sitio web de Firefox Screenshots como parte de un registro de servidor estándar. </p>
+</li>
+</ul><p>Consulte la <a href="https://github.com/mozilla-services/screenshots/blob/master/docs/METRICS.md">documentación completa</a> o <a href="https://wiki.mozilla.org/Firefox/Screenshots/FAQs">la siguiente página</a>para obtener más información.</p></div>
+
+
+</section><section id="push-notifications"><header><h3>Notificaciones de sitios web</h3></header><div><ul>
+<li>
+<p><strong>Datos de conexión</strong>: Si permite que un sitio web le envíe notificaciones, Firefox se conecta con Mozilla y usa su dirección IP para retransmitir el mensaje.  Mozilla no puede acceder al contenido de los mensajes.    </p>
+</li>
+<li>
+<p><strong>Datos de interacción</strong>: Recibimos datos como el número de suscripciones y cancelaciones de suscripciones a las notificaciones de sitios web de Firefox, el número de mensajes enviados, fecha y hora y los remitentes (que pueden incluir proveedores de sitios web específicos).  </p>
+</li>
+</ul><p>Consulte la <a href="https://mozilla-push-service.readthedocs.io/en/latest/">documentación completa</a> o <a href="https://support.mozilla.org/kb/push-notifications-firefox">esta página</a>para obtener más información. Aquí también encontrará información sobre cómo revocar las notificaciones de sitios web.</p></div>
+
+
+</section><section id="addons"><header><h3>Complementos</h3></header><div><p>Puede instalar Complementos desde la página addons.mozilla.org (“AMO”) o a través del administrador de complementos de Firefox, al que puede acceder mediante el botón de menú de Firefox ubicado en la barra de herramientas.</p><ul>
+<li>
+<p><strong>Solicitudes de búsqueda</strong>: Las solicitudes de búsqueda en el Administrador de complementos se envían a Mozilla para proporcionarle complementos sugeridos.  </p>
+</li>
+<li>
+<p><strong>Datos de interacción</strong>:  Recibimos datos sobre las visitas al sitio web AMO y el Administrador de complementos en Firefox, así mismo que sobre las interacciones con el contenido de dichas páginas. <a href="/privacy/websites/">Visite esta página</a>para obtener información sobre las prácticas relacionadas con datos en los sitios web de Mozilla.</p>
+</li>
+<li>
+<p><strong>Datos técnicos para actualizaciones</strong>: Firefox se conecta periódicamente con Mozilla para instalar las actualizaciones de Complementos.  Sus complementos instalados, versión de navegador , idioma y sistema operativo del dispositivo se usan para aplicar las actualizaciones correctas.  </p>
+</li>
+</ul><hr/></div>
+
+
+
+</section><section id="nota-a-pie-de-pagina"><header><h3>Nota a pie de página</h3></header><div><p id="pre-release">Este aviso de privacidad se aplica a la versión más reciente de lanzamiento general de Firefox distribuido por Mozilla.  Si adquiere Firefox de otro sitio, o está usando una versión anterior, su copia de Firefox puede incluir términos de privacidad distintos.<br/></p><p>Las versiones de pre-lanzamiento de Mozilla de Firefox (que se distribuyen a través de canales como Nightly, Beta, Developer Edition y TestFlight) son plataformas de desarrollo frecuentemente actualizadas con características y estudios experimentales. Además de la recopilación de datos descrita en este Aviso de privacidad, estas versiones pueden enviar de forma predeterminada ciertos tipos de actividad web y datos de bloqueo a Mozilla y, en algunos casos, a nuestros socios. Cualquier recopilación o intercambio de datos se adhiere a nuestra <a href="https://wiki.mozilla.org/Firefox/Data_Collection">política de recopilación de datos de Firefox</a> y siempre seremos transparentes y te proporcionaremos el control al respecto.</p></div>
+
+
+</section></section>
+  
+  </div>
+</main>
+
+<section class="privacy-footnote">
+  <div class="content-girdle">
+  
+
+    <p>
+      <a href="/es-ES/privacy/">Volver a Política de privacidad de Mozilla</a>
+    </p>
+  </div>
+</section>
+</article>
+
+
+    
+      <footer id="colophon" class="">
+  <div class="content">
+    <nav class="primary">
+      <div class="logo">
+        <a href="/es-ES/" data-link-type="footer" data-link-name="Mozilla">Mozilla</a>
+      </div>
+      <section class="mozilla">
+        <h5>
+          <a href="/es-ES/" data-link-type="footer" data-link-name="Mozilla">Mozilla</a>
+        </h5>
+        <ul class="mozilla-links">
+          <li><a href="/es-ES/about/" data-link-type="footer" data-link-name="About">Conócenos</a></li>
+          <li><a href="https://blog.mozilla.org/" data-link-type="footer" data-link-name="Blog">Blog</a></li>
+          <li><a href="/es-ES/contact/" data-link-type="footer" data-link-name="Contact Us">Contacta con nosotros</a></li>
+          <li><a href="https://blog.mozilla.org/press-es/" data-link-type="footer" data-link-name="Press Center">Área de prensa</a>
+          <li><a href="https://donate.mozilla.org/es-ES/?presets=50,30,20,10&amp;amount=30&amp;utm_source=mozilla.org&amp;utm_medium=referral&amp;utm_content=footer&amp;currency=eur" class="donate" data-link-type="footer" data-link-name="Donate">Donar</a></li>
+          <li><a href="https://wiki.mozilla.org/Webdev/GetInvolved/mozilla.org" data-link-type="footer" data-link-name="Contribute to this site">Colabora en este sitio</a></li>
+          
+          
+          <li>
+            <ul class="social-links">
+              <li><a class="twitter" href="https://twitter.com/mozilla" data-link-type="footer" data-link-name="Twitter (@mozilla)">Twitter<span> (@mozilla)</span></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/mozilla/" data-link-type="footer" data-link-name="Instagram (@mozilla)">Instagram<span> (@mozilla)</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="firefox">
+        <h5>
+          <a href="/es-ES/firefox/" data-link-type="footer" data-link-name="Firefox">Firefox</a>
+        </h5>
+        <ul class="firefox-links">
+          <li><a href="/es-ES/firefox/new/" data-link-type="footer" data-link-name="Download Firefox">Descargar Firefox</a></li>
+          <li><a href="/es-ES/firefox/" data-link-type="footer" data-link-name="Desktop">Escritorio</a></li>
+          <li><a href="/es-ES/firefox/mobile/" data-link-type="footer" data-link-name="Mobile">Móviles</a></li>
+          <li><a href="/es-ES/firefox/features/" data-link-type="footer" data-link-name="Features">Características</a></li>
+          <li><a href="/es-ES/firefox/channel/desktop/" data-link-type="footer" data-link-name="Beta, Nightly, Developer Edition">Edición para desarrolladores, Beta, Nightly</a></li>
+          <li>
+            <ul class="social-links">
+              <li><a class="twitter" href="https://twitter.com/firefox_es" data-link-type="footer" data-link-name="Twitter (@firefox)">Twitter<span> (@firefox)</span></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/firefoxchannel" data-link-type="footer" data-link-name="YouTube (firefoxchannel)">YouTube<span> (firefoxchannel)</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+
+    <nav class="secondary">
+        <div class="small-links">
+          <ul>
+            
+            
+              
+            
+            <li><a href="/es-ES/privacy/websites/" data-link-type="footer" data-link-name="Privacy">Privacidad</a></li>
+            <li><a href="/es-ES/privacy/websites/#cookies" data-link-type="footer" data-link-name="Cookies">Cookies</a></li>
+            <li><a href="/es-ES/about/legal/" data-link-type="footer" data-link-name="Legal">Legal</a></li>
+          </ul>
+          <p class="license">Algunos contenidos están protegidos por los derechos de autor ©1998–2018 de determinados colaboradores en mozilla.org. El resto de contenidos están disponibles bajo una licencia <a rel="license" href="/es-ES/foundation/licensing/website-content/">Creative Commons</a>.</p>
+        </div>
+        <div class="lang-switcher">
+          
+<form id="lang_form" method="get" action="#">
+  <label for="page-language-select">Idioma</label>
+  <select id="page-language-select" name="lang" dir="ltr">
+    
+      <option lang="bn-BD" value="bn-BD">বাংলা (বাংলাদেশ)</option>
+    
+      <option lang="bn-IN" value="bn-IN">বাংলা (ভারত)</option>
+    
+      <option lang="cs" value="cs">Čeština</option>
+    
+      <option lang="de" value="de">Deutsch</option>
+    
+      <option lang="el" value="el">Ελληνικά</option>
+    
+      <option lang="en-US" value="en-US">English</option>
+    
+      <option lang="es-ES" value="es-ES" selected>Español (de España)</option>
+    
+      <option lang="es-MX" value="es-MX">Español (de México)</option>
+    
+      <option lang="fr" value="fr">Français</option>
+    
+      <option lang="hi-IN" value="hi-IN">हिन्दी (भारत)</option>
+    
+      <option lang="hr" value="hr">Hrvatski</option>
+    
+      <option lang="hu" value="hu">magyar</option>
+    
+      <option lang="id" value="id">Bahasa Indonesia</option>
+    
+      <option lang="it" value="it">Italiano</option>
+    
+      <option lang="ja" value="ja">日本語</option>
+    
+      <option lang="mk" value="mk">Македонски</option>
+    
+      <option lang="nl" value="nl">Nederlands</option>
+    
+      <option lang="pl" value="pl">Polski</option>
+    
+      <option lang="pt-BR" value="pt-BR">Português (do Brasil)</option>
+    
+      <option lang="ro" value="ro">Română</option>
+    
+      <option lang="ru" value="ru">Русский</option>
+    
+      <option lang="sr" value="sr">Српски</option>
+    
+      <option lang="ta" value="ta">தமிழ்</option>
+    
+      <option lang="tr" value="tr">Türkçe</option>
+    
+      <option lang="zh-CN" value="zh-CN">中文 (简体)</option>
+    
+      <option lang="zh-TW" value="zh-TW">正體中文 (繁體)</option>
+    
+  </select>
+  <button type="submit">Go</button>
+</form>
+
+        </div>
+    </nav>
+  </div>
+</footer>
+    
+  </div>
+
+  <!--[if IE 9]>
+    <script type="text/javascript" src="/media/js/BUNDLES/matchmedia.a6e503dcb8bc.js" charset="utf-8"></script>
+  <![endif]-->
+
+    
+      <!--[if !lte IE 8]><!-->
+        <script type="text/javascript" src="/media/js/BUNDLES/common.945cfb8770ab.js" charset="utf-8"></script>
+      <!--<![endif]-->
+
+      <!--[if lte IE 8]>
+        <script type="text/javascript" src="/media/js/BUNDLES/common-ie8.1a18bf9598c9.js" charset="utf-8"></script>
+      <![endif]-->
+    
+
+    
+    
+      
+        <script type="text/javascript" src="/media/js/BUNDLES/stub-attribution.157168bbb235.js" charset="utf-8"></script>
+      
+    
+
+    <!--[if !lte IE 8]><!-->
+    
+  <script type="text/javascript" src="/media/js/BUNDLES/privacy_quantum_firefox.39f7169f2efb.js" charset="utf-8"></script>
+
+
+    
+    
+      
+    
+
+    
+    <!--<![endif]-->
+
+    
+    
+    <img src="https://mozilla.org/set_hsts.gif" class="hidden">
+  </body>
+</html>= 
+�>      [��[��?}��[���   /    :https://www.mozilla.org/es-ES/privacy/firefox/ necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAf9MIIH+TCCBuGgAwIBAgIQCLTVuQqUkB24PV+Clbic+TANBgkqhkiG9w0BAQsFADB1MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMTQwMgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVkIFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTE2MTEwOTAwMDAwMFoXDTE4MTExNDEyMDAwMFowggECMR0wGwYDVQQPDBRQcml2YXRlIE9yZ2FuaXphdGlvbjETMBEGCysGAQQBgjc8AgEDEwJVUzEbMBkGCysGAQQBgjc8AgECEwpDYWxpZm9ybmlhMREwDwYDVQQFEwhDMjc1OTIwODEeMBwGA1UECRMVNjUwIENhc3RybyBTdCBTdGUgMzAwMQ4wDAYDVQQREwU5NDA0MTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxHDAaBgNVBAoTE01vemlsbGEgQ29ycG9yYXRpb24xFDASBgNVBAMTC21vemlsbGEub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAojTWgYqURVDP291yrYhgqecAn++PQjzOesgJkZoPQdd4JuJMxg4Cxbfp00qpjJv9DNWCoQsYGGRNyXL6Xmxy7PVwD5m+2C27ogOa0xSBP5hBr07CaqQ1yAJw0RKwGilLbiiSzJoy21AUyY/uKxKogfMM9nnTfF4TQaYkahyeOCjhoIXW2/nhoRvmzQkKtCc3kdKE64j8PgmeImu3nV4uw6XNj48umyuhHG+6G5Svt7d/DhSoTNKoiyigf4lLZuVCY3fwLVQh2Rx1Xz+cMpXLU6OIqdnZbDa9hlEFgN2C6MoSmcfo6BX8Ruvyzqc2f+FNDGwjCGiAlxes3ZhcSwFjsQIDAQABo4ID9DCCA/AwHwYDVR0jBBgwFoAUPdNQpdagre7zSmAKZdMh1Pj41g8wHQYDVR0OBBYEFCqAuKQ3S0o1NBRkMZ7we/y2w6CTMCcGA1UdEQQgMB6CC21vemlsbGEub3Jngg93d3cubW96aWxsYS5vcmcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB1BgNVHR8EbjBsMDSgMqAwhi5odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc2hhMi1ldi1zZXJ2ZXItZzEuY3JsMDSgMqAwhi5odHRwOi8vY3JsNC5kaWdpY2VydC5jb20vc2hhMi1ldi1zZXJ2ZXItZzEuY3JsMEsGA1UdIAREMEIwNwYJYIZIAYb9bAIBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwBwYFZ4EMAQEwgYgGCCsGAQUFBwEBBHwwejAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMFIGCCsGAQUFBzAChkZodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRTSEEyRXh0ZW5kZWRWYWxpZGF0aW9uU2VydmVyQ0EuY3J0MAwGA1UdEwEB/wQCMAAwggH3BgorBgEEAdZ5AgQCBIIB5wSCAeMB4QB1AKS5CZC0GFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABWEtou44AAAQDAEYwRAIgadQvTaz8vG28WPPQyoD32Nfvekz/WfdMdTjc88YcYC4CIBncp5Yqet7J3JSiNWJnbaeWtBvTjoO6vudBurSFaqWmAHYAaPaY+B9kgr46jO65KB1M/HFRXWeT1ETRCmesu09P+8QAAAFYS2i7XQAABAMARzBFAiEAxbQYHhg6zA3Q7Y1hdXNVtd2yaOg1g4iIV38VeG2WBoMCIAT2azrUy9ndA3hZPPk2hV8YTEItIocJB81F/J4wf2NMAHcAVhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ0N0AAAFYS2i7+gAABAMASDBGAiEA4/5viFhhenp07noR8YSkvuiHF+D+6fmDhqcH2shxiboCIQCyPAVUuxnyrWK3PPDbqGx4YPi5i5DIQUbyT/UiqaOVtwB3AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3LAAABWEtovaIAAAQDAEgwRgIhAJ1S5/U2TqjMRHM8WLpZ+SRroBRoFXqLLj0kEffVe9MtAiEAgxkb74Z6pNVKx898PkNtxICcVRDah4loTSFsftgMAjYwDQYJKoZIhvcNAQELBQADggEBAAAxqPv0YMMRvgwOIKr5s6DqE4fUdkntQZn2y8VkLyNPodUP5s64ZbnNcceubSPwgqbrXAEVdn2YLyFde1j/npTRfvQH4nPjN8zmIdZFQ/7FYp9bTUFQbouea6gf8/pVUgIFa0945hikojNzIXATFynDFFarpx+h957jOGlfhkXqFEK0cPrikLhxDrI5LWDv8tcJSW971gDngSY8N3htFgvDkCMVhBuQM02UTW++WuCe5rzWk8vQ3NfJoqy3Vm3YhRpOTF3UFbTXCpmzAb1hgt+iz4k1soCJo9YwOewwd5aS8Bk2+vjtOafBNN6UdLa4WjRX+JnX5wIANzL9azCzLUcTAQMEAAAAAQEBAAAAAAAABngyNTUxOQAAAA5SU0EtUFNTLVNIQTI1NgGVn7FlZRdIf6ub2JE75TGXrnTNpc0vRz+W9fC3//YsaAAAAANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAf9MIIH+TCCBuGgAwIBAgIQCLTVuQqUkB24PV+Clbic+TANBgkqhkiG9w0BAQsFADB1MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMTQwMgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVkIFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTE2MTEwOTAwMDAwMFoXDTE4MTExNDEyMDAwMFowggECMR0wGwYDVQQPDBRQcml2YXRlIE9yZ2FuaXphdGlvbjETMBEGCysGAQQBgjc8AgEDEwJVUzEbMBkGCysGAQQBgjc8AgECEwpDYWxpZm9ybmlhMREwDwYDVQQFEwhDMjc1OTIwODEeMBwGA1UECRMVNjUwIENhc3RybyBTdCBTdGUgMzAwMQ4wDAYDVQQREwU5NDA0MTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxHDAaBgNVBAoTE01vemlsbGEgQ29ycG9yYXRpb24xFDASBgNVBAMTC21vemlsbGEub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAojTWgYqURVDP291yrYhgqecAn++PQjzOesgJkZoPQdd4JuJMxg4Cxbfp00qpjJv9DNWCoQsYGGRNyXL6Xmxy7PVwD5m+2C27ogOa0xSBP5hBr07CaqQ1yAJw0RKwGilLbiiSzJoy21AUyY/uKxKogfMM9nnTfF4TQaYkahyeOCjhoIXW2/nhoRvmzQkKtCc3kdKE64j8PgmeImu3nV4uw6XNj48umyuhHG+6G5Svt7d/DhSoTNKoiyigf4lLZuVCY3fwLVQh2Rx1Xz+cMpXLU6OIqdnZbDa9hlEFgN2C6MoSmcfo6BX8Ruvyzqc2f+FNDGwjCGiAlxes3ZhcSwFjsQIDAQABo4ID9DCCA/AwHwYDVR0jBBgwFoAUPdNQpdagre7zSmAKZdMh1Pj41g8wHQYDVR0OBBYEFCqAuKQ3S0o1NBRkMZ7we/y2w6CTMCcGA1UdEQQgMB6CC21vemlsbGEub3Jngg93d3cubW96aWxsYS5vcmcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB1BgNVHR8EbjBsMDSgMqAwhi5odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc2hhMi1ldi1zZXJ2ZXItZzEuY3JsMDSgMqAwhi5odHRwOi8vY3JsNC5kaWdpY2VydC5jb20vc2hhMi1ldi1zZXJ2ZXItZzEuY3JsMEsGA1UdIAREMEIwNwYJYIZIAYb9bAIBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwBwYFZ4EMAQEwgYgGCCsGAQUFBwEBBHwwejAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMFIGCCsGAQUFBzAChkZodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRTSEEyRXh0ZW5kZWRWYWxpZGF0aW9uU2VydmVyQ0EuY3J0MAwGA1UdEwEB/wQCMAAwggH3BgorBgEEAdZ5AgQCBIIB5wSCAeMB4QB1AKS5CZC0GFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABWEtou44AAAQDAEYwRAIgadQvTaz8vG28WPPQyoD32Nfvekz/WfdMdTjc88YcYC4CIBncp5Yqet7J3JSiNWJnbaeWtBvTjoO6vudBurSFaqWmAHYAaPaY+B9kgr46jO65KB1M/HFRXWeT1ETRCmesu09P+8QAAAFYS2i7XQAABAMARzBFAiEAxbQYHhg6zA3Q7Y1hdXNVtd2yaOg1g4iIV38VeG2WBoMCIAT2azrUy9ndA3hZPPk2hV8YTEItIocJB81F/J4wf2NMAHcAVhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ0N0AAAFYS2i7+gAABAMASDBGAiEA4/5viFhhenp07noR8YSkvuiHF+D+6fmDhqcH2shxiboCIQCyPAVUuxnyrWK3PPDbqGx4YPi5i5DIQUbyT/UiqaOVtwB3AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3LAAABWEtovaIAAAQDAEgwRgIhAJ1S5/U2TqjMRHM8WLpZ+SRroBRoFXqLLj0kEffVe9MtAiEAgxkb74Z6pNVKx898PkNtxICcVRDah4loTSFsftgMAjYwDQYJKoZIhvcNAQELBQADggEBAAAxqPv0YMMRvgwOIKr5s6DqE4fUdkntQZn2y8VkLyNPodUP5s64ZbnNcceubSPwgqbrXAEVdn2YLyFde1j/npTRfvQH4nPjN8zmIdZFQ/7FYp9bTUFQbouea6gf8/pVUgIFa0945hikojNzIXATFynDFFarpx+h957jOGlfhkXqFEK0cPrikLhxDrI5LWDv8tcJSW971gDngSY8N3htFgvDkCMVhBuQM02UTW++WuCe5rzWk8vQ3NfJoqy3Vm3YhRpOTF3UFbTXCpmzAb1hgt+iz4k1soCJo9YwOewwd5aS8Bk2+vjtOafBNN6UdLa4WjRX+JnX5wIANzL9azCzLUdmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAS6MIIEtjCCA56gAwIBAgIQDHmpRLCMEZUgkmFf4msdgzANBgkqhkiG9w0BAQsFADBsMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5jZSBFViBSb290IENBMB4XDTEzMTAyMjEyMDAwMFoXDTI4MTAyMjEyMDAwMFowdTELMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3LmRpZ2ljZXJ0LmNvbTE0MDIGA1UEAxMrRGlnaUNlcnQgU0hBMiBFeHRlbmRlZCBWYWxpZGF0aW9uIFNlcnZlciBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANdTpARR+JmmFkhLZyeqk0nQOe0MsLAAh/FnKIaFjI5j2ryxQDji0/XspQUYuD0+xZkXMuwYjPrxDKZkIYXLBxA0sFKIKx9om9KxjxKws9LniB8f7zh3VFNfgHk/LhqqqB5LKw2rt2O5Nbd9FLxZS99RStKh4gzikIKHaq7q12TWmFXo/a8aUGxUvBHy/Urynbt/DvTVvo4WiRJV2MBxNO723C3sxIclho3YIeSwTQyJ3DkmF93215SF2AQhcJ1vb/9cuhnhRctWVyh+HA1BV6q3uCe7seT6Ku8hI3UarS2bhjWMnHe1c63YlC3k8wyd7sFOYn4XwHGeLN7x+RAoGTMCAwEAAaOCAUkwggFFMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBLBgNVHR8ERDBCMECgPqA8hjpodHRwOi8vY3JsNC5kaWdpY2VydC5jb20vRGlnaUNlcnRIaWdoQXNzdXJhbmNlRVZSb290Q0EuY3JsMD0GA1UdIAQ2MDQwMgYEVR0gADAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5jb20vQ1BTMB0GA1UdDgQWBBQ901Cl1qCt7vNKYApl0yHU+PjWDzAfBgNVHSMEGDAWgBSxPsNpA/i/RwHUmCYaCALvY2QrwzANBgkqhkiG9w0BAQsFAAOCAQEAnbbQkIbhhgLtxaDwNBx0wY12zIYKqPBKikLWP8ipTa18CK3mtlC4ohpNiAexKSHc59rGPCHg4xFJcKx6HQGkyhE6V6t9VypAdP3THYUYUN9XR3WhfVUgLkc3UHKMf4Ib0mKPLQNa2sPIoc4sUqIAY+tzunHISScjl2SFnjgOrWNoPLpSgVh5oywM395t6zHyuqB8bPEs1OG9d4Q3A84ytciagRpKkk47RpqF/oOi+Z6Mo8wNXrM9zwR4jxQUezKcxwCmXMS1oVWNWlZopCJwqjyBcdmdqEU79OX2olHdx3ti6G8MdOu42vi/hw15UJGQmxg7kVkn8TUoE6smftX3emYKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAAA8kwggPFMIICraADAgECAhACrFwmagtAm48LefKuRiV3MA0GCSqGSIb3DQEBBQUAMGwxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xKzApBgNVBAMTIkRpZ2lDZXJ0IEhpZ2ggQXNzdXJhbmNlIEVWIFJvb3QgQ0EwHhcNMDYxMTEwMDAwMDAwWhcNMzExMTEwMDAwMDAwWjBsMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5jZSBFViBSb290IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxszlc+b71LvlLS0ypt/lgT/JzSVJtnEqw9WUNGeiChywX2mmQLHEt7KP0JikqUFZOtPclNY823Q4pErMTSWC90qlUxI47vNJbXGRfmO2q6Zfw6SE+E9iUb74xezbOJLjBuUIkQzEKEFV+8taiRV+ceg1v01yCT2+OjhQW3cxG42zxyRFmqesbQAUWgS3uhPrUQqYQUEiTmVhh4FBUKZ5XIneGUpX1S7mXRxTLH6YzRoGFqRoc9A0BBNcoXHTWnxV215k4TeHMFYE5RG0KYAS8Xk5iKICEXwnZreIt3jyygqoOKsKZMK/Zl2VhMGhJR6HXRpQCyASzEG7bgtROLhLywIDAQABo2MwYTAOBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUsT7DaQP4v0cB1JgmGggC72NkK8MwHwYDVR0jBBgwFoAUsT7DaQP4v0cB1JgmGggC72NkK8MwDQYJKoZIhvcNAQEFBQADggEBABwaBpfc15yfPIhmBghXIdshR/gqZ6q/GDJ2QBBXwYrzetkRZY41+p78RbWe2UwxS7iR6EMsjrN4ztvjU3lx1uUhlAHaVYeaJGT2imbM3pw3zag0sWmbI8ieeCIrcEPjVUcxYRnvWMWFL04w9qAxFiPI5+JlFjPLvxoboD34yl6LMYtgCIktDAZcUrfE+QqY0RVfnxK+fDZjOL1EpH/kJisKxJdpDemM4sAQV7jIdhKRVfJIadi8KgJbD0TUIDHb9LpwJl2QYJ68SxcJL7TLHkNoyQcnwdJc9+ohuWgSnDycv578gFybY83sR6olJ2egN/MAgn1U16n46S4To3foH0oAAA== request-method GET request-Accept-Encoding gzip, deflate, br response-head HTTP/2.0 200 OK
+date: Wed, 12 Sep 2018 11:17:43 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=3600
+content-security-policy: script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com; img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: mozilla.org www.googletagmanager.com www.google-analytics.com adservice.google.com creativecommons.org ad.doubleclick.net; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; frame-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' fast.fonts.net; connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com https://accounts.firefox.com/ https://accounts.firefox.com.cn/; child-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com
+etag: "1130f588bddc0b65db3a1dd56d37db39"
+expires: Fri, 07 Sep 2018 16:43:11 GMT
+last-modified: Fri, 07 Sep 2018 15:43:11 GMT
+strict-transport-security: max-age=31536000
+x-backend-server: bedrock-prod-web-5ccd574b96-n54pp.frankfurt
+x-clacks-overhead: GNU Terry Pratchett
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-robots-tag: noodp
+x-xss-protection: 1; mode=block
+cf-cache-status: HIT
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+vary: Accept-Encoding
+server: cloudflare
+cf-ray: 4591f824da35625a-LIS
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 12 Sep 2018 11:17:43 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=3600
+content-security-policy: script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com; img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: mozilla.org www.googletagmanager.com www.google-analytics.com adservice.google.com creativecommons.org ad.doubleclick.net; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; frame-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' fast.fonts.net; connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com https://accounts.firefox.com/ https://accounts.firefox.com.cn/; child-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com
+etag: "1130f588bddc0b65db3a1dd56d37db39"
+expires: Fri, 07 Sep 2018 16:43:11 GMT
+last-modified: Fri, 07 Sep 2018 15:43:11 GMT
+strict-transport-security: max-age=31536000
+x-backend-server: bedrock-prod-web-5ccd574b96-n54pp.frankfurt
+x-clacks-overhead: GNU Terry Pratchett
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-robots-tag: noodp
+x-xss-protection: 1; mode=block
+cf-cache-status: HIT
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+vary: Accept-Encoding
+server: cloudflare
+cf-ray: 4591f824da35625a-LIS
+X-Firefox-Spdy: h2
+ uncompressed-len 0 predictor::resource-count 19 predictor::https://www.mozilla.org/media/js/BUNDLES/site.8391e739b374.js 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/css/BUNDLES/pebbles.03d45fb8fff9.css 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/css/BUNDLES/privacy_quantum.6c743cf78f72.css 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/gtm-snippet.9f9cf2026c5f.js 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/img/pebbles/moz-wordmark-dark-reverse.2cbc28bb9895.svg 1,1,1536749984,4096 net-response-time-onstart 49 net-response-time-onstop 191 predictor::https://www.mozilla.org/media/js/BUNDLES/common.945cfb8770ab.js 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/stub-attribution.157168bbb235.js 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/privacy_quantum_firefox.39f7169f2efb.js 1,1,1536749984,4096 predictor::https://mozilla.org/set_hsts.gif 1,1,1536749984,4097 predictor::https://www.googletagmanager.com/gtm.js?id=GTM-MW3R8V&l=dataLayer 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/img/privacy/arrowhead-up-16.7aa7b4730363.svg 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/img/privacy/arrowhead-down-16.a9ade046c8d5.svg 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/img/pebbles/moz-wordmark-light-reverse.cb1bdf6d1de6.svg 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/img/logos/social/social-icon-sprite.bf2ae0cd0f01.svg 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/fonts/opensans-regular.668362de763a.woff2 1,1,1536749984,4096 predictor::https://www.mozilla.org/media/fonts/opensans-bold.5cf854f3d1c0.woff2 1,1,1536749984,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1536749984,4096 predictor::https://www.google-analytics.com/plugins/ua/linkid.js 1,1,1536749984,4096   � 

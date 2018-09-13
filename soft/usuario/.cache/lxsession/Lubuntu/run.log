@@ -1,0 +1,122 @@
+** Message: 12:56:50.700: environement.vala:58: Exporting primary_variable
+** Message: 12:56:50.700: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 12:56:50.700: environement.vala:177: custom_config :/etc/xdg/lubuntu:
+** Message: 12:56:50.700: environement.vala:178: config_dirs :/etc/xdg/xdg-Lubuntu:/etc/xdg
+** Message: 12:56:50.700: environement.vala:179: confir_dirs not null, export : /etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/etc/xdg
+** Message: 12:56:50.700: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 12:56:50.700: environement.vala:218: custom_data :/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:
+** Message: 12:56:50.700: environement.vala:219: data_dirs :/usr/share/Lubuntu:/usr/local/share/:/usr/share/
+** Message: 12:56:50.700: environement.vala:220: data_dirs not null, export : /etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/
+** Message: 12:56:50.700: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 12:56:50.700: utils.vala:68: User config used : /home/usuario/.config/lxsession/Lubuntu/desktop.conf
+** Message: 12:56:50.700: utils.vala:89: Final file used : /home/usuario/.config/lxsession/Lubuntu/desktop.conf
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «iGtk/ColorScheme» en el grupo «GTK»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «dock/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «im2/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «widget1/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «notification/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «keybindings/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «im_manager/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «message_manager/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/command» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/timeout» en el grupo «Session»
+** Message: 12:56:50.700: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/command» en el grupo «Session»
+** Message: 12:56:50.701: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/dev_mode» en el grupo «Session»
+** Message: 12:56:50.701: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/timeout» en el grupo «Session»
+** Message: 12:56:50.701: settings.vala:540: El archivo de claves no tiene la clave «proxy_manager/http» en el grupo «Session»
+** Message: 12:56:50.701: settings.vala:540: El archivo de claves no tiene la clave «a11y/command» en el grupo «Session»
+** Message: 12:56:50.701: settings.vala:540: El archivo de claves no tiene la clave «xrandr/command» en el grupo «Session»
+** Message: 12:56:50.701: settings.vala:540: El archivo de claves no tiene la clave «charmap/command» en el grupo «Session»
+** Message: 12:56:50.701: settings.vala:462: Monitoring: /home/usuario/.config/lxsession/Lubuntu/desktop.conf
+** Message: 12:56:50.701: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: 12:56:50.701: environement.vala:79: Exporting variable
+** Message: 12:56:50.701: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 12:56:50.701: environement.vala:177: custom_config :
+** Message: 12:56:50.701: environement.vala:178: config_dirs :/etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/etc/xdg
+** Message: 12:56:50.701: environement.vala:179: confir_dirs not null, export : /etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/etc/xdg
+** Message: 12:56:50.701: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 12:56:50.701: environement.vala:218: custom_data :
+** Message: 12:56:50.701: environement.vala:219: data_dirs :/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/
+** Message: 12:56:50.701: environement.vala:220: data_dirs not null, export : /etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/
+** Message: 12:56:50.701: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 12:56:50.701: utils.vala:68: User config used : /home/usuario/.config/lxsession/Lubuntu/desktop.conf
+** Message: 12:56:50.701: utils.vala:89: Final file used : /home/usuario/.config/lxsession/Lubuntu/desktop.conf
+** Message: 12:56:50.701: environement.vala:254: No entry in [Environment_variable]. El archivo de claves no tiene el grupo «Environment_variable»
+** Message: 12:56:50.702: utils.vala:79: Config system location : /etc/xdg/xdg-Lubuntu/lxsession/Lubuntu
+** Message: 12:56:50.702: utils.vala:79: Config system location : /etc/xdg/lxsession/Lubuntu
+** Message: 12:56:50.702: utils.vala:85: System system path location : /etc/xdg/lxsession/Lubuntu/conffiles.conf
+** Message: 12:56:50.702: utils.vala:89: Final file used : /etc/xdg/lxsession/Lubuntu/conffiles.conf
+** Message: 12:56:50.702: options.vala:164: Activate xsettings_manager build-in
+** Message: 12:56:50.702: utils.vala:68: User config used : /home/usuario/.config/lxsession/Lubuntu/desktop.conf
+** Message: 12:56:50.702: utils.vala:89: Final file used : /home/usuario/.config/lxsession/Lubuntu/desktop.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: 12:56:50.707: app.vala:76: Launching lxpanel 
+
+** (lxsession:2193): WARNING **: 12:56:50.708: app.vala:86: Falló al ejecutar el proceso hijo «dhcpcd-gtk» (No existe el archivo o el directorio)
+
+** (lxsession:2193): WARNING **: 12:56:50.708: app.vala:87: Error when launching dhcpcd-gtk
+** Message: 12:56:50.710: app.vala:76: Launching pcmanfm 
+** Message: 12:56:50.710: app.vala:721: polkit separate
+** Message: 12:56:50.710: app.vala:721: polkit separate
+** Message: 12:56:50.714: app.vala:76: Launching lxpolkit 
+** Message: 12:56:50.714: utils.vala:68: User config used : /home/usuario/.config/lxsession/Lubuntu/autostart
+** Message: 12:56:50.714: utils.vala:89: Final file used : /home/usuario/.config/lxsession/Lubuntu/autostart
+** Message: 12:56:50.714: autostart.vala:42: Autostart path : /home/usuario/.config/lxsession/Lubuntu/autostart
+** Message: 12:56:50.721: app.vala:76: Launching bash 
+** Message: 12:56:50.722: app.vala:76: Launching sleep 
+** Message: 12:56:50.723: app.vala:76: Launching bash 
+** Message: 12:56:50.725: app.vala:76: Launching bash 
+** Message: 12:56:50.727: app.vala:76: Launching python 
+** Message: 12:56:50.734: options.vala:107: Create build-in Clipboard
+Shutdown scheduled for Thu 2018-09-13 21:00:00 CEST, use 'shutdown -c' to cancel.
+** Message: 12:56:50.735: main.vala:442: Check keymap_mode system
+** Message: 12:56:50.735: main.vala:445: Create Option Keymap
+** Message: 12:56:50.737: app.vala:76: Launching /usr/bin/ssh-agent 
+Invalid MIT-MAGIC-COOKIE-1 keyInvalid MIT-MAGIC-COOKIE-1 keyNo se puede abrir el visor: 
+SSH_AUTH_SOCK=/tmp/ssh-tc4BDKglQhZg/agent.2280; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=2287; export SSH_AGENT_PID;
+echo Agent pid 2287;
+** Message: 12:56:50.747: app.vala:130: bash exit with this type of exit: 0
+** Message: 12:56:50.747: app.vala:130: bash exit with this type of exit: 256
+** Message: 12:56:50.747: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+No se puede abrir el visor: 
+** Message: 12:56:50.749: app.vala:130: bash exit with this type of exit: 256
+
+(light-locker:2304): dbind-WARNING **: 12:56:50.852: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(update-notifier:2293): dbind-WARNING **: 12:56:50.854: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(nm-applet:2301): dbind-WARNING **: 12:56:50.891: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Openbox-Message: La tecla solicitada "XF86Terminal" no existe en la pantalla
+** Message: 12:56:50.961: bt: Name org.bluez unowned on DBus
+
+(lxpanel:2263): Gtk-CRITICAL **: 12:56:51.065: IA__gtk_image_get_pixbuf: assertion 'image->storage_type == GTK_IMAGE_PIXBUF || image->storage_type == GTK_IMAGE_EMPTY' failed
+
+(lxpanel:2263): Gtk-CRITICAL **: 12:56:51.066: IA__gtk_image_get_pixbuf: assertion 'image->storage_type == GTK_IMAGE_PIXBUF || image->storage_type == GTK_IMAGE_EMPTY' failed
+
+(lxpanel:2263): libindicator-WARNING **: 12:56:51.067: IndicatorObject class does not have an accessible description.
+
+(nm-applet:2301): Gtk-WARNING **: 12:56:51.068: Can't set a parent on widget which has a parent
+
+(lxpanel:2263): Wnck-WARNING **: 12:56:51.081: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(nm-applet:2301): Gdk-CRITICAL **: 12:56:51.191: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(lxpanel:2263): Wnck-WARNING **: 12:57:04.834: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(pcmanfm:2267): GLib-GIO-CRITICAL **: 12:57:09.683: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+** (lxpanel:2263): WARNING **: 12:57:09.715: lxpanel : X error: BadWindow (invalid Window parameter)
+
+(lxpanel:2263): Wnck-WARNING **: 12:57:09.719: Unhandled action type _OB_WM_ACTION_UNDECORATE
+** Message: 12:57:50.723: app.vala:130: sleep exit with this type of exit: 0
+file_manager
+
+Launching file manager
+** Message: 12:58:34.792: dbus-lxde-session.vala:855: Reload Filemanager
+** Message: 12:58:34.792: dbus-lxde-session.vala:862: File manager doesn't exist, creating it
+** Message: 12:58:34.794: app.vala:76: Launching pcmanfm 
+** Message: 12:58:34.807: app.vala:130: pcmanfm exit with this type of exit: 0
+
+(lxpanel:2263): Wnck-WARNING **: 12:58:34.872: Unhandled action type _OB_WM_ACTION_UNDECORATE
