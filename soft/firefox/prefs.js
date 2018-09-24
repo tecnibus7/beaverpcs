@@ -39,7 +39,7 @@ user_pref("browser.shell.checkDefaultBrowser", true);
 user_pref("browser.shell.mostRecentDateSetAsDefault", "1536664610");
 user_pref("browser.slowStartup.averageTime", 4105);
 user_pref("browser.slowStartup.samples", 3);
-user_pref("browser.startup.homepage", "bub.us.es");
+user_pref("browser.startup.homepage", "https://bib.us.es");
 user_pref("browser.startup.homepage_override.buildID", "20180406121424");
 user_pref("browser.startup.homepage_override.mstone", "59.0.2");
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"home-button\",\"customizableui-special-spring1\",\"urlbar-container\",\"customizableui-special-spring2\",\"downloads-button\",\"library-button\",\"sidebar-button\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"developer-button\"],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\"],\"currentVersion\":14,\"newElementCount\":2}");
