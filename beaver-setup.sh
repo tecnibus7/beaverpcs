@@ -240,6 +240,9 @@ chown  -R usuario /etc/bus/beaverpcs/soft/usuario
 ## su -c 'cat <(crontab -l -u usuario) <(echo "* * * * 2 cp -r /etc/bus/beaverpcs/soft/usuario/ /home/usuario") | crontab -' -m "usuario"
 
 ####### su -c 'cat <(crontab -l -u usuario) <(echo "@reboot cp -r /etc/bus/beaverpcs/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart") | crontab -' -m "usuario"
+echo "= Creando tarea cron para ejecutar tareas de mantenimiento cada 2 horas ="
+chmod 755 /etc/bus/beaverpcs/ECE/actuaciones.sh
+su -c 'cat <(crontab -l -u root) <(echo "* */2 * * * /etc/bus/ECE/actuaciones.sh") | crontab -' -m "root"
 
 
 echo "= Trabajos de crontab añadidos ="
