@@ -88,7 +88,10 @@ echo "= Creando usuario usuario ="
 # useradd -m -g users -s /bin/bash usuario
 useradd -m -g users -s /bin/bash usuario
 echo "usuario:usuario" | chpasswd
-
+echo "Configurando inicio automático de usuario"
+echo -e "utologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 
 echo "= Finalizada creacion de usuario invitado ="
 sleep 10
@@ -98,10 +101,10 @@ echo "= Configurando ntp ="
 timedatectl set-ntp off
 timedatectl
 sleep 5
-sed -i 's/0.ubuntu.pool.ntp.org/0.hora.roa.es/g' /etc/ntp.conf
-sed -i 's/1.ubuntu.pool.ntp.org/1.hora.cica.es/g' /etc/ntp.conf
-sed -i 's/2.ubuntu.pool.ntp.org/2.hora.rediris.es/g' /etc/ntp.conf
-sed -i 's/3.ubuntu.pool.ntp.org/3.pool.europe.org/g' /etc/ntp.conf
+sed -i 's/0.ubuntu.pool.ntp.org/hora.roa.es/g' /etc/ntp.conf
+sed -i 's/1.ubuntu.pool.ntp.org/hora.cica.es/g' /etc/ntp.conf
+sed -i 's/2.ubuntu.pool.ntp.org/hora.rediris.es/g' /etc/ntp.conf
+sed -i 's/3.ubuntu.pool.ntp.org/pool.europe.org/g' /etc/ntp.conf
 service ntp restart
 timedatectl
 sleep 5
