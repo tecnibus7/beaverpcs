@@ -89,7 +89,7 @@ echo "= Creando usuario usuario ="
 useradd -m -g users -s /bin/bash usuario
 echo "usuario:usuario" | chpasswd
 echo "Configurando inicio automático de usuario"
-echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+echo -e "utologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 
