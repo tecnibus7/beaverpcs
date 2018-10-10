@@ -25,9 +25,9 @@ echo "usuario:usuario" | chpasswd
 echo "Usuario con clave"
 
 echo "Configurando autoinicio de usuario"
-echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
-echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
-echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+# echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+# echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+# echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo "Autoinicio configurado"
 
 echo "= Eliminando escritorios no deseados ="
@@ -58,7 +58,9 @@ echo
 echo "= Instalación de Mendeley finalizada ="
 echo "Instalación de Mendeley finalizada"
 echo "Instalando trabajos de crontab para restablecer usuario"
-cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
+# cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
+touch /var/spool/cron/crontabs/reboot
+echo "@rreboot /etc/bus/beaverpcs/restableceusuario.sh"
 echo "Finalizada instalación de trabajos de crontab"
 sleep 3
 echo "El instalador ha finalizado. El equipo se reiniciará en breve o ejecute shutdown -r now"
