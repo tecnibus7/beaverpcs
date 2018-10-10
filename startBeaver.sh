@@ -15,7 +15,8 @@ echo "Descargando requerimientos..."
 mkdir -p /etc/bus
 cd /etc/bus/
 wget http://tecnibus.us.es/usuarioBeaver.tar
-git clone https://github.com/tecnibus7/beaverpcs.git
+#git clone https://github.com/tecnibus7/beaverpcs.git
+chmod 755 /etc/bus/restableceusuario.sh
 echo "Requerimiento descargados"
 sleep 2
 
