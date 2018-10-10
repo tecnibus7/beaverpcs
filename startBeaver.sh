@@ -12,8 +12,8 @@ fi
 
 
 echo "Descargando requerimientos..."
-mkdir -p /etc/bib
-cd /etc/bib/
+mkdir -p /etc/bus
+cd /etc/bus/
 wget http://tecnibus.us.es/usuarioBeaver.tar
 git clone https://github.com/tecnibus7/beaverpcs.git
 echo "Requerimiento descargados"
@@ -56,3 +56,9 @@ rm mendeleydesktop_1.19.1-stable_amd64.deb
 echo
 echo "= Instalación de Mendeley finalizada ="
 echo "Instalación de Mendeley finalizada"
+echo "Instalando trabajos de crontab para restablecer usuario"
+cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
+echo "Finalizada instalación de trabajos de crontab"
+sleep 3
+echo "El instalador ha finalizado. El equipo se reiniciará en breve o ejecute shutdown -r now"
+shutdown -r +1
