@@ -59,8 +59,8 @@ echo "= Instalación de Mendeley finalizada ="
 echo "Instalación de Mendeley finalizada"
 echo "Instalando trabajos de crontab para restablecer usuario"
 # cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
-touch /var/spool/cron/crontabs/reboot
-echo -e "@reboot /etc/bus/beaverpcs/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
+touch /var/spool/cron/crontabs/root
+echo -e "@reboot /etc/bus/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
 echo "Finalizada instalación de trabajos de crontab"
 sleep 3
 echo "El instalador ha finalizado. El equipo se reiniciará en breve o ejecute shutdown -r now"
