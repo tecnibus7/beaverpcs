@@ -40,23 +40,23 @@ echo "Openbox ya no se puede iniciar de forma sencilla"
 sleep 2
 echo
 
-echo "Instalando Mendeley"
-echo "= Inicio de instalación de Mendeley ="
-apt-get update
-apt-get upgrade -y
-apt-get update
-apt --fix-broken install -y
-apt-get autoremove -y
-sleep 2
-echo "== Inicio de la descarga =="
-wget https://desktop-download.mendeley.com/download/apt/pool/main/m/mendeleydesktop/mendeleydesktop_1.19.1-stable_amd64.deb
-echo "== Iniciando instalacion =="
-dpkg -i mendeleydesktop_1.19.1-stable_amd64.deb
-echo "= Eliminando ficheros de instalador ="
-rm mendeleydesktop_1.19.1-stable_amd64.deb
-echo
-echo "= Instalación de Mendeley finalizada ="
-echo "Instalación de Mendeley finalizada"
+# echo "Instalando Mendeley"
+# echo "= Inicio de instalación de Mendeley ="
+# apt-get update
+# apt-get upgrade -y
+# apt-get update
+# apt --fix-broken install -y
+# apt-get autoremove -y
+# sleep 2
+# echo "== Inicio de la descarga =="
+# wget https://desktop-download.mendeley.com/download/apt/pool/main/m/mendeleydesktop/mendeleydesktop_1.19.1-stable_amd64.deb
+# echo "== Iniciando instalacion =="
+# dpkg -i mendeleydesktop_1.19.1-stable_amd64.deb
+# echo "= Eliminando ficheros de instalador ="
+# rm mendeleydesktop_1.19.1-stable_amd64.deb
+# echo
+# echo "= Instalación de Mendeley finalizada ="
+# echo "Instalación de Mendeley finalizada"
 echo "Instalando trabajos de crontab para restablecer usuario"
 # cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
 touch /var/spool/cron/crontabs/root
