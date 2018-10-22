@@ -11,24 +11,43 @@ if [ $EUID -ne 0 ]; then
 fi
 
 
-echo "Descargando requerimientos..."
-mkdir -p /etc/bus
-cd /etc/bus/
-wget http://tecnibus.us.es/usuarioBeaver.tar
+# echo "Descargando requerimientos..."
+# mkdir -p /etc/bus
+# cd /etc/bus/
+# wget http://tecnibus.us.es/usuarioBeaver.tar
 #git clone https://github.com/tecnibus7/beaverpcs.git
-chmod 755 /etc/bus/restableceusuario.sh
-echo "Requerimiento descargados"
-sleep 2
+# chmod 755 /etc/bus/restableceusuario.sh
+# echo "Requerimiento descargados"
+echo "= Añadiendo fuentes de repositorios para apt-get ="
+echo -e "deb http://es.archive.ubuntu.com/ubuntu/ bionic main restricted
+deb-src http://es.archive.ubuntu.com/ubuntu/ bionic multiverse main restricted universe #Added by software-properties
+deb http://es.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+deb-src http://es.archive.ubuntu.com/ubuntu/ bionic-updates multiverse main restricted universe #Added by software-properties
+deb http://es.archive.ubuntu.com/ubuntu/ bionic universe
+deb http://es.archive.ubuntu.com/ubuntu/ bionic-updates universe
+deb http://es.archive.ubuntu.com/ubuntu/ bionic multiverse
+deb http://es.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+deb http://es.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src http://es.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse #Added by software-properties
+deb http://archive.canonical.com/ubuntu bionic partner
+deb-src http://archive.canonical.com/ubuntu bionic partner
+deb http://security.ubuntu.com/ubuntu bionic-security main restricted
+deb-src http://security.ubuntu.com/ubuntu bionic-security multiverse main restricted universe #Added by software-properties
+deb http://security.ubuntu.com/ubuntu bionic-security universe
+deb http://security.ubuntu.com/ubuntu bionic-security multiverse">/etc/apt/sources.list
+echo "= Fuentes para apt-get añadidas ="
 
-echo "Asignando clave a usuario"
-echo "usuario:usuario" | chpasswd
-echo "Usuario con clave"
 
-echo "Configurando autoinicio de usuario"
+
+## echo "Asignando clave a usuario"
+## echo "usuario:usuario" | chpasswd
+## echo "Usuario con clave"
+
+echo "= Configurando autoinicio de usuario ="
 echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 # echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
-echo "Autoinicio configurado"
+echo "= Autoinicio configurado ="
 
 echo "= Eliminando escritorios no deseados ="
 echo "Eliminando inicio de OLubuntu"
@@ -39,6 +58,17 @@ rm /usr/share/xsessions/openbox.desktop
 echo "Openbox ya no se puede iniciar de forma sencilla"
 sleep 2
 echo
+
+echo "= Creando configuración de usuario ="
+echo "== Creando enlaces simbolicos =="
+ln -s /usr/bin/firefox /home/usuario/Escritorio/Firefox
+ln -s /usr/bin/libreoffice /home/usuario/Escritorio/LibreOffice
+ln -s /usr/bin/mendeleydesktop /home/usuario/Escritorio/Mendeley
+ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+
+
+echo "== Enlaces simbolicos creados =="
+echo "= Finalizando creación de escritorio ="
 
 # echo "Instalando Mendeley"
 # echo "= Inicio de instalación de Mendeley ="
@@ -60,7 +90,7 @@ echo
 echo "Instalando trabajos de crontab para restablecer usuario"
 # cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
 touch /var/spool/cron/crontabs/root
-echo -e "@reboot /bin/bash /etc/bus/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
+## echo -e "@reboot /bin/bash /etc/bus/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
 echo "Finalizada instalación de trabajos de crontab"
 sleep 3
 echo "El instalador ha finalizado. El equipo se reiniciará en breve o ejecute shutdown -r now"
