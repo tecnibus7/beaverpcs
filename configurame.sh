@@ -67,6 +67,10 @@ ln -s /usr/share/applications/libreoffice-base.desktop /home/usuario/Desktop/Lib
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
 ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
 
+ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
+ln -s /usr/share/applications/libreoffice-base.desktop /home/usuario/Escritorio/LibreOffice
+ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
+ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
 
 
 echo "== Enlaces simbolicos creados =="
