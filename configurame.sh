@@ -61,10 +61,12 @@ echo
 
 echo "= Creando configuración de usuario ="
 echo "== Creando enlaces simbolicos =="
-ln -s /usr/bin/firefox /home/usuario/Escritorio/Firefox
-ln -s /usr/bin/libreoffice /home/usuario/Escritorio/LibreOffice
-ln -s /usr/bin/mendeleydesktop /home/usuario/Escritorio/Mendeley
-ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+
+ln -s /usr/share/applications/firefox.desktop /home/usuario/Desktop/Firefox
+ln -s /usr/share/applications/libreoffice-base.desktop /home/usuario/Desktop/LibreOffice
+ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
+ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
+
 
 
 echo "== Enlaces simbolicos creados =="
