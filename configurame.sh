@@ -82,6 +82,11 @@ ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritor
 
 
 echo "== Enlaces simbolicos creados =="
+
+echo "== Preparando acciones al inicio del escritorio =="
+cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
+echo "== Finalizadas actuaciones al inicio del escritorio =="
+
 echo "= Finalizando creación de escritorio ="
 
 # echo "Instalando Mendeley"
