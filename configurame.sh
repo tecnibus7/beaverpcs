@@ -63,12 +63,20 @@ echo "= Creando configuración de usuario ="
 echo "== Creando enlaces simbolicos =="
 
 ln -s /usr/share/applications/firefox.desktop /home/usuario/Desktop/Firefox
-ln -s /usr/share/applications/libreoffice-base.desktop /home/usuario/Desktop/LibreOffice
+echo -e "[Desktop Entry]
+Type=Link
+Name=LibreOffice
+Icon=libreoffice-startcenter
+URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Desktop/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
-ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
+ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
 
 ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
-ln -s /usr/share/applications/libreoffice-base.desktop /home/usuario/Escritorio/LibreOffice
+echo -e "[Desktop Entry]
+Type=Link
+Name=LibreOffice
+Icon=libreoffice-startcenter
+URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
 ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
 
