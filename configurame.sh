@@ -132,5 +132,5 @@ chmod -R +rw /mnt/fs_uauario
 #
 echo "= Espacio de trabajo montado ="
 
-echo "El instalador ha finalizado. El equipo se reiniciará en breve o ejecute shutdown -r now"
+echo "El instalador ha finalizado. Ejecute shutdown -r now"
 # shutdown -r +1
