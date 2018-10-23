@@ -112,5 +112,25 @@ touch /var/spool/cron/crontabs/root
 ## echo -e "@reboot /bin/bash /etc/bus/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
 echo "Finalizada instalación de trabajos de crontab"
 sleep 3
+
+echo "= Creación de espacio de trabajo para usuario ="
+cd /etc/bus
+# Creando fichero de 1Gb
+dd if=/dev/zero of=usuario_fs bs=1024 count=1072000
+# Cargando en el loop0 el fichero creado
+losetup /dev/loop0 usuario_fs
+# Damos formato al ficheros
+mkfs -t ext3 -m 1 -v /dev/loop0
+# Montar el fichero en una ubicación
+mount -t ext3 /dev/loop0 /mnt/fs_usuario/
+# Creo un enlace al espacio de ficheros creados
+ln -s /mnt/fs_uauario /home/usuario/Documentos_u
+# cambio los permisos para el fichero para permitir escritura al usuario_fs
+chown usuario /mnt/fs_usuario
+chmod +rw /mnt/fs_uauario
+
+#
+echo "= Espacio de trabajo montado ="
+
 echo "El instalador ha finalizado. El equipo se reiniciará en breve o ejecute shutdown -r now"
 shutdown -r +1
