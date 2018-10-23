@@ -126,11 +126,11 @@ mount -t ext3 /dev/loop0 /mnt/fs_usuario/
 # Creo un enlace al espacio de ficheros creados
 ln -s /mnt/fs_uauario /home/usuario/Documentos_u
 # cambio los permisos para el fichero para permitir escritura al usuario_fs
-chown usuario /mnt/fs_usuario
-chmod +rw /mnt/fs_uauario
+chown -R usuario /mnt/fs_usuario
+chmod -R +rw /mnt/fs_uauario
 
 #
 echo "= Espacio de trabajo montado ="
 
 echo "El instalador ha finalizado. El equipo se reiniciará en breve o ejecute shutdown -r now"
-shutdown -r +1
+# shutdown -r +1
