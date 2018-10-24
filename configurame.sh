@@ -63,6 +63,7 @@ echo "= Creando configuración de usuario ="
 echo "== Creando enlaces simbolicos =="
 
 ln -s /usr/share/applications/firefox.desktop /home/usuario/Desktop/Firefox
+
 echo -e "[Desktop Entry]
 Type=Link
 Name=LibreOffice
@@ -70,6 +71,7 @@ Icon=libreoffice-startcenter
 URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Desktop/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
 ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
+chattr +i /home/usuario/Desktop/
 
 ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
 echo -e "[Desktop Entry]
@@ -79,6 +81,7 @@ Icon=libreoffice-startcenter
 URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
 ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+chattr +i /home/usuario/Escritorio/
 
 
 echo "== Enlaces simbolicos creados =="
@@ -109,6 +112,7 @@ echo "= Finalizando creación de escritorio ="
 echo "Instalando trabajos de crontab para restablecer usuario"
 # cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
 touch /var/spool/cron/crontabs/root
+echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root
 ## echo -e "@reboot /bin/bash /etc/bus/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
 echo "Finalizada instalación de trabajos de crontab"
 sleep 3
