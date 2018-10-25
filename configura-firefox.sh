@@ -6,7 +6,7 @@ DIRECCION=$(find /home/usuario/.mozilla/firefox/ | grep prefs.js)
 # FICHERO="prefs.js"
 cd ~
 echo $DIRECCION
-cp -R /etc/bus/beaverpcs/soft/firefox/prefs.js $DIRECCION
+cp -R /etc/bus/soft/firefox/prefs.js $DIRECCION
 
 
 ## /bin/cd /home/usuario/.mozilla/firefox/*.default/
