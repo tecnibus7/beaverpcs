@@ -70,7 +70,7 @@ Name=LibreOffice
 Icon=libreoffice-startcenter
 URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Desktop/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
-# ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
+ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
 chattr +i /home/usuario/Desktop/
 
 ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
@@ -80,14 +80,14 @@ Name=LibreOffice
 Icon=libreoffice-startcenter
 URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
-# ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
 chattr +i /home/usuario/Escritorio/
 
 
 echo "== Enlaces simbolicos creados =="
 
 echo "== Preparando acciones al inicio del escritorio =="
-# cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
+cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
 echo "== Finalizadas actuaciones al inicio del escritorio =="
 
 echo "= Finalizando creación de escritorio ="
