@@ -2,7 +2,7 @@
 
 echo "Iniciado script de instalación bionic-beaver\n"
 echo
-echo 'Versión 2.0-2018-10-10-alpha para LUbuntu-server 18.04'
+echo 'Versión 2.1-2018-10-25-alpha para LUbuntu-server 18.04'
 echo
 sleep 2
 if [ $EUID -ne 0 ]; then
@@ -43,10 +43,10 @@ echo "= Fuentes para apt-get añadidas ="
 ## echo "usuario:usuario" | chpasswd
 ## echo "Usuario con clave"
 
-## echo "= Configurando autoinicio de usuario ="
-## echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
-## echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
-# echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+echo "= Configurando autoinicio de usuario ="
+echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo "= Autoinicio configurado ="
 
 echo "= Eliminando escritorios no deseados ="
@@ -73,15 +73,15 @@ ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mend
 ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
 chattr +i /home/usuario/Desktop/
 
-# ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
-# echo -e "[Desktop Entry]
-# Type=Link
-# Name=LibreOffice
-# Icon=libreoffice-startcenter
-# URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
-# ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
-# ln -e python /etc/bus/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
-# chattr +i /home/usuario/Escritorio/
+ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
+echo -e "[Desktop Entry]
+Type=Link
+Name=LibreOffice
+Icon=libreoffice-startcenter
+URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
+ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
+ln -e python /etc/bus/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+chattr +i /home/usuario/Escritorio/
 
 
 echo "== Enlaces simbolicos creados =="
@@ -136,5 +136,5 @@ echo "= Creación de espacio de trabajo para usuario ="
 #
 echo "= Espacio de trabajo montado ="
 
-echo "El instalador ha finalizado. Ejecute shutdown -r now"
-# shutdown -r +1
+echo "El instalador ha finalizado. Ejecute shutdown -r now o espere un minuto"
+shutdown -r +1
