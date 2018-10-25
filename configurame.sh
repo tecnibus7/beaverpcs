@@ -43,9 +43,9 @@ echo "= Fuentes para apt-get añadidas ="
 ## echo "usuario:usuario" | chpasswd
 ## echo "Usuario con clave"
 
-echo "= Configurando autoinicio de usuario ="
-echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
-echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+## echo "= Configurando autoinicio de usuario ="
+## echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+## echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 # echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo "= Autoinicio configurado ="
 
@@ -70,7 +70,7 @@ Name=LibreOffice
 Icon=libreoffice-startcenter
 URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Desktop/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
-ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
+# ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
 chattr +i /home/usuario/Desktop/
 
 ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
@@ -80,14 +80,14 @@ Name=LibreOffice
 Icon=libreoffice-startcenter
 URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
 ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
-ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+# ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
 chattr +i /home/usuario/Escritorio/
 
 
 echo "== Enlaces simbolicos creados =="
 
 echo "== Preparando acciones al inicio del escritorio =="
-cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
+# cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
 echo "== Finalizadas actuaciones al inicio del escritorio =="
 
 echo "= Finalizando creación de escritorio ="
@@ -111,8 +111,8 @@ echo "= Finalizando creación de escritorio ="
 # echo "Instalación de Mendeley finalizada"
 echo "Instalando trabajos de crontab para restablecer usuario"
 # cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
-touch /var/spool/cron/crontabs/root
-echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root
+## touch /var/spool/cron/crontabs/root
+## echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root
 ## echo -e "@reboot /bin/bash /etc/bus/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
 echo "Finalizada instalación de trabajos de crontab"
 sleep 3
