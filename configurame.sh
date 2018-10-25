@@ -19,7 +19,7 @@ fi
 # chmod 755 /etc/bus/restableceusuario.sh
 # echo "Requerimiento descargados"
 echo "= Añadiendo fuentes de repositorios para apt-get ="
-echo -e "deb http://es.archive.ubuntu.com/ubuntu/ bionic main restricted
+echo "deb http://es.archive.ubuntu.com/ubuntu/ bionic main restricted
 deb-src http://es.archive.ubuntu.com/ubuntu/ bionic multiverse main restricted universe #Added by software-properties
 deb http://es.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
 deb-src http://es.archive.ubuntu.com/ubuntu/ bionic-updates multiverse main restricted universe #Added by software-properties
@@ -73,15 +73,15 @@ ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mend
 ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
 chattr +i /home/usuario/Desktop/
 
-ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
-echo -e "[Desktop Entry]
-Type=Link
-Name=LibreOffice
-Icon=libreoffice-startcenter
-URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
-ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
-ln -e python /etc/bus/beaverpcs/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
-chattr +i /home/usuario/Escritorio/
+# ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
+# echo -e "[Desktop Entry]
+# Type=Link
+# Name=LibreOffice
+# Icon=libreoffice-startcenter
+# URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
+# ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
+# ln -e python /etc/bus/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+# chattr +i /home/usuario/Escritorio/
 
 
 echo "== Enlaces simbolicos creados =="
