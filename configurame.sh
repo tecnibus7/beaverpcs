@@ -129,11 +129,11 @@ mkfs -t ext3 -m 1 -v /dev/loop0
 mkdir /mnt/fs_usuario
 mount -t ext3 /dev/loop0 /mnt/fs_usuario/
 # Creo un enlace al espacio de ficheros creados
-ln -s /mnt/fs_uauario /home/usuario/Documentos_u
-chown -R usuario /home/usuario/Documentos_u
 # cambio los permisos para el fichero para permitir escritura al usuario_fs
 chown -R usuario /mnt/fs_usuario
 chmod -R +rw /mnt/fs_uauario
+ln -s /mnt/fs_uauario /home/usuario/Documentos_u
+## chown -R usuario /home/usuario/Documentos_u
 
 #
 echo "= Espacio de trabajo montado ="
