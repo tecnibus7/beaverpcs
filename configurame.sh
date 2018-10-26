@@ -118,20 +118,22 @@ echo "Finalizada instalación de trabajos de crontab"
 sleep 3
 
 echo "= Creación de espacio de trabajo para usuario ="
-#cd /etc/bus
+cd /etc/bus
 # Creando fichero de 1Gb
-#dd if=/dev/zero of=usuario_fs bs=1024 count=1072000
+dd if=/dev/zero of=usuario_fs bs=1024 count=1072000
 # Cargando en el loop0 el fichero creado
-#losetup /dev/loop0 usuario_fs
+losetup /dev/loop0 usuario_fs
 # Damos formato al ficheros
-#mkfs -t ext3 -m 1 -v /dev/loop0
+mkfs -t ext3 -m 1 -v /dev/loop0
 # Montar el fichero en una ubicación
-#mount -t ext3 /dev/loop0 /mnt/fs_usuario/
+mkdir /mnt/fs_usuario
+mount -t ext3 /dev/loop0 /mnt/fs_usuario/
 # Creo un enlace al espacio de ficheros creados
-#ln -s /mnt/fs_uauario /home/usuario/Documentos_u
+ln -s /mnt/fs_uauario /home/usuario/Documentos_u
+chown -R usuario /home/usuario/Documentos_u
 # cambio los permisos para el fichero para permitir escritura al usuario_fs
-#chown -R usuario /mnt/fs_usuario
-#chmod -R +rw /mnt/fs_uauario
+chown -R usuario /mnt/fs_usuario
+chmod -R +rw /mnt/fs_uauario
 
 #
 echo "= Espacio de trabajo montado ="
