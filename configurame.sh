@@ -132,6 +132,7 @@ mount -t ext3 /dev/loop0 /mnt/fs_usuario/
 # cambio los permisos para el fichero para permitir escritura al usuario_fs
 chown -R usuario /mnt/fs_usuario
 chmod -R +rw /mnt/fs_uauario
+chown usuario /etc/bus/usuario_fs
 ln -s /mnt/fs_uauario /home/usuario/Documentos_u
 ## chown -R usuario /home/usuario/Documentos_u
 
