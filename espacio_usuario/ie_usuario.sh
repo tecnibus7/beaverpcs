@@ -13,9 +13,9 @@ mount -t ext3 /dev/loop1 /mnt/fs_usuario_test/
 # Creo un enlace al espacio de ficheros creados
 # cambio los permisos para el fichero para permitir escritura al usuario_fs
 chown -R usuario /mnt/fs_usuario_test
-chmod -R +rw /mnt/fs_uauario_test
+chmod -R +rw /mnt/fs_usuario_test
 chown usuario usuario_fs
-ln -s /mnt/fs_uauario_test /home/usuario/Documentos_u_test
+ln -s /mnt/fs_usuario_test /home/usuario/Documentos_u_test
 ## chown -R usuario /home/usuario/Documentos_u
 
 #
