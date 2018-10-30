@@ -127,7 +127,16 @@ mount -t ext3 /dev/loop0 /mnt/fs_usuario/
 chown -R usuario /mnt/fs_usuario
 chmod -R +rw /mnt/fs_uauario
 chown usuario usuario_fs
+
+chattr -i /home/usuario/Desktop/
 ln -s /mnt/fs_uauario /home/usuario/Desktop/Documentos
+chattr +i /home/usuario/Desktop/
+
+chattr -i /home/usuario/Escritorio/
+ln -s /mnt/fs_uauario /home/usuario/Escritorio/Documentos
+chattr +i /home/usuario/Escritorio/
+
+
 ## chown -R usuario /home/usuario/Documentos_u
 
 #

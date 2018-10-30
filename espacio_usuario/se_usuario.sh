@@ -7,7 +7,14 @@
 chown -R usuario /mnt/fs_usuario
 chmod -R +rw /mnt/fs_usuario
 chown usuario usuario_fs
+chattr -i /home/usuario/Desktop/
 chown usuario /home/usuario/Desktop/Documentos
+chattr +i /home/usuario/Desktop/
+
+chattr -i /home/usuario/Escritorio/
+chown usuario /home/usuario/Escritorio/Documentos
+chattr +i /home/usuario/Escritorio/
+
 # ln -s /mnt/fs_usuario_test /home/usuario/Documentos_u_test
 ## chown -R usuario /home/usuario/Documentos_u
 
