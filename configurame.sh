@@ -112,29 +112,30 @@ echo "= Finalizando creación de escritorio ="
 sleep 3
 
 echo "= Creación de espacio de trabajo para usuario ="
+/etc/bus/espacio_usuario/ie_usuario.sh
 # cd /etc/bus
 # Creando fichero de 1Gb
-dd if=/dev/zero of=usuario_fs bs=1024 count=1072000
+## dd if=/dev/zero of=usuario_fs bs=1024 count=1072000
 # Cargando en el loop0 el fichero creado
-losetup /dev/loop0 usuario_fs
+## losetup /dev/loop0 usuario_fs
 # Damos formato al ficheros
-mkfs -t ext3 -m 1 -v /dev/loop0
+## mkfs -t ext3 -m 1 -v /dev/loop0
 # Montar el fichero en una ubicación
-mkdir /mnt/fs_usuario
-mount -t ext3 /dev/loop0 /mnt/fs_usuario/
+## mkdir /mnt/fs_usuario
+## mount -t ext3 /dev/loop0 /mnt/fs_usuario/
 # Creo un enlace al espacio de ficheros creados
 # cambio los permisos para el fichero para permitir escritura al usuario_fs
-chown -R usuario /mnt/fs_usuario
-chmod -R +rw /mnt/fs_uauario
-chown usuario usuario_fs
+## chown -R usuario /mnt/fs_usuario
+## chmod -R +rw /mnt/fs_uauario
+## chown usuario usuario_fs
 
-chattr -i /home/usuario/Desktop/
-ln -s /mnt/fs_uauario /home/usuario/Desktop/Documentos
-chattr +i /home/usuario/Desktop/
+## chattr -i /home/usuario/Desktop/
+## ln -s /mnt/fs_uauario /home/usuario/Desktop/Documentos
+## chattr +i /home/usuario/Desktop/
 
-chattr -i /home/usuario/Escritorio/
-ln -s /mnt/fs_uauario /home/usuario/Escritorio/Documentos
-chattr +i /home/usuario/Escritorio/
+## chattr -i /home/usuario/Escritorio/
+## ln -s /mnt/fs_uauario /home/usuario/Escritorio/Documentos
+## chattr +i /home/usuario/Escritorio/
 
 
 ## chown -R usuario /home/usuario/Documentos_u
