@@ -15,6 +15,8 @@ chattr -i /home/usuario/Escritorio/
 chown usuario /home/usuario/Escritorio/Documentos
 chattr +i /home/usuario/Escritorio/
 
+chown usuario /mnt/fs_usuario/
+
 # ln -s /mnt/fs_usuario_test /home/usuario/Documentos_u_test
 ## chown -R usuario /home/usuario/Documentos_u
 
