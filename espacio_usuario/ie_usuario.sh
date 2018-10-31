@@ -2,6 +2,7 @@
 # Este script elimina y desmonta el fichero de espacio de usuario
 echo "= Creación de espacio de trabajo para usuario ="
 # Creando fichero de 1Gb
+cd /
 dd if=/dev/zero of=usuario_fs bs=1024 count=1072000
 # Cargando en el loop0 el fichero creado
 losetup /dev/loop1 usuario_fs
