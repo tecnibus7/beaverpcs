@@ -13,9 +13,21 @@ mkdir /mnt/fs_usuario
 mount -t ext3 /dev/loop1 /mnt/fs_usuario/
 # Creo un enlace al espacio de ficheros creados
 # cambio los permisos para el fichero para permitir escritura al usuario_fs
-chown -R usuario /mnt/fs_usuario
+chown usuario /mnt/fs_usuario
 chmod -R +rw /mnt/fs_usuario
 chown usuario usuario_fs
+
+mv /home/usuario/Descargas /mnt/fs_usuario
+mv /home/usuario/Imágenes /mnt/fs_usuario
+mv /home/usuario/Música /mnt/fs_usuario
+mv /home/usuario/Plantillas /mnt/fs_usuario
+mv /home/usuario/Imágenes /mnt/fs_usuario
+mv /home/usuario/Videos /mnt/fs_usuario
+rm /home/usuario/Desktop
+rm /home/usuario/Público
+rm /home/usuario/Documentos
+
+
 
 chattr -i /home/usuario/Escritorio/
 ln -s /mnt/fs_usuario /home/usuario/Escritorio/Documentos
