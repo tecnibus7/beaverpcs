@@ -23,7 +23,6 @@ mv /home/usuario/Música /mnt/fs_usuario
 mv /home/usuario/Plantillas /mnt/fs_usuario
 mv /home/usuario/Imágenes /mnt/fs_usuario
 mv /home/usuario/Videos /mnt/fs_usuario
-rm /home/usuario/Desktop
 rm /home/usuario/Público
 rm /home/usuario/Documentos
 
