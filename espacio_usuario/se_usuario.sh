@@ -15,9 +15,10 @@
 /bin/chown usuario /home/usuario/Escritorio/Documentos
 /usr/bin/chattr +i /home/usuario/Escritorio/
 
+mkdir /mnt/fs_usuario/Descargas
 mv /home/usuario/Descargas /mnt/fs_usuario
-mv /home/usuario/Imágenes /mnt/fs_usuario
-mv /home/usuario/Música /mnt/fs_usuario
+mv /home/usuario/Imágenes /mnt/fs_usuario/
+mv /home/usuario/Música /mnt/fs_usuario/
 mv /home/usuario/Plantillas /mnt/fs_usuario
 mv /home/usuario/Imágenes /mnt/fs_usuario
 mv /home/usuario/Videos /mnt/fs_usuario
