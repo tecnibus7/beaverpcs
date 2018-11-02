@@ -17,6 +17,8 @@ chown usuario /mnt/fs_usuario/
 chmod -R +rw /mnt/fs_usuario/
 chown usuario /usuario_fs
 
+/etc/bus/espacio_usuario/se_usuario.sh
+
 mv /home/usuario/Descargas /mnt/fs_usuario
 mv /home/usuario/Imágenes /mnt/fs_usuario
 mv /home/usuario/Música /mnt/fs_usuario
