@@ -17,17 +17,6 @@ chown usuario /mnt/fs_usuario/
 chmod -R +rw /mnt/fs_usuario/
 chown usuario /usuario_fs
 
-/etc/bus/espacio_usuario/se_usuario.sh
-
-mv /home/usuario/Descargas /mnt/fs_usuario
-mv /home/usuario/Imágenes /mnt/fs_usuario
-mv /home/usuario/Música /mnt/fs_usuario
-mv /home/usuario/Plantillas /mnt/fs_usuario
-mv /home/usuario/Imágenes /mnt/fs_usuario
-mv /home/usuario/Videos /mnt/fs_usuario
-rm /home/usuario/Público
-rm /home/usuario/Documentos
-
 
 
 chattr -i /home/usuario/Escritorio/
@@ -38,6 +27,7 @@ chattr -i /home/usuario/Desktop/
 ln -s /mnt/fs_usuario /home/usuario/Desktop/Documentos
 chattr +i /home/usuario/Desktop/
 
+/etc/bus/espacio_usuario/se_usuario.sh
 
 ## chown -R usuario /home/usuario/Documentos_u
 

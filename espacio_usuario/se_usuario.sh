@@ -15,6 +15,16 @@
 /bin/chown usuario /home/usuario/Escritorio/Documentos
 /usr/bin/chattr +i /home/usuario/Escritorio/
 
+mv /home/usuario/Descargas /mnt/fs_usuario
+mv /home/usuario/Imágenes /mnt/fs_usuario
+mv /home/usuario/Música /mnt/fs_usuario
+mv /home/usuario/Plantillas /mnt/fs_usuario
+mv /home/usuario/Imágenes /mnt/fs_usuario
+mv /home/usuario/Videos /mnt/fs_usuario
+rm /home/usuario/Público
+rm /home/usuario/Documentos
+
+
 # chown usuario /mnt/fs_usuario/
 
 # ln -s /mnt/fs_usuario_test /home/usuario/Documentos_u_test
