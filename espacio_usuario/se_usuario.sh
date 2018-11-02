@@ -4,16 +4,16 @@
 ##losetup /dev/loop1 usuario_fs
 ##/bin/mount -t ext3 /dev/loop1 /mnt/fs_usuario_test/
 
-chown usuario /mnt/fs_usuario
-chmod -R +rw /mnt/fs_usuario
-chown usuario usuario_fs
-chattr -i /home/usuario/Desktop/
-chown usuario /home/usuario/Desktop/Documentos
-chattr +i /home/usuario/Desktop/
+/bin/chown usuario /mnt/fs_usuario
+/bin/chmod -R +rw /mnt/fs_usuario
+/bin/chown usuario usuario_fs
+/usr/bin/chattr -i /home/usuario/Desktop/
+/bin/chown usuario /home/usuario/Desktop/Documentos
+/usr/bin/chattr +i /home/usuario/Desktop/
 
-chattr -i /home/usuario/Escritorio/
-chown usuario /home/usuario/Escritorio/Documentos
-chattr +i /home/usuario/Escritorio/
+/usr/bin/chattr -i /home/usuario/Escritorio/
+/bin/chown usuario /home/usuario/Escritorio/Documentos
+/usr/bin/chattr +i /home/usuario/Escritorio/
 
 # chown usuario /mnt/fs_usuario/
 
