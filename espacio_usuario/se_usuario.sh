@@ -9,12 +9,12 @@
 /bin/chmod -R +rw /mnt/fs_usuario/
 
 /usr/bin/chattr -i /home/usuario/Desktop/
-/bin/mkdir /home/usuario/Desktop/Documentos
+# /bin/mkdir /home/usuario/Desktop/Documentos
 /bin/chown usuario /home/usuario/Desktop/Documentos
 /usr/bin/chattr +i /home/usuario/Desktop/
 
 /usr/bin/chattr -i /home/usuario/Escritorio/
-/bin/mkdir /home/usuario/Escritorio/Documentos
+# /bin/mkdir /home/usuario/Escritorio/Documentos
 /bin/chown usuario /home/usuario/Escritorio/Documentos
 /usr/bin/chattr +i /home/usuario/Escritorio/
 

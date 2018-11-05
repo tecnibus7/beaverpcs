@@ -19,13 +19,13 @@ chmod -R +rw /mnt/fs_usuario
 
 
 
-#chattr -i /home/usuario/Escritorio/
-#ln -s /mnt/fs_usuario /home/usuario/Escritorio/Documentos
-#chattr +i /home/usuario/Escritorio/
+chattr -i /home/usuario/Escritorio/
+ln -s /mnt/fs_usuario /home/usuario/Escritorio/Documentos
+chattr +i /home/usuario/Escritorio/
 
-#chattr -i /home/usuario/Desktop/
-#ln -s /mnt/fs_usuario /home/usuario/Desktop/Documentos
-#chattr +i /home/usuario/Desktop/
+chattr -i /home/usuario/Desktop/
+ln -s /mnt/fs_usuario /home/usuario/Desktop/Documentos
+chattr +i /home/usuario/Desktop/
 
 /etc/bus/espacio_usuario/se_usuario.sh
 
