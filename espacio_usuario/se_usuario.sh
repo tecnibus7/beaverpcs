@@ -5,8 +5,8 @@
 ##/bin/mount -t ext3 /dev/loop1 /mnt/fs_usuario_test/
 cd /
 sleep 40
-/bin/chown usuario /mnt/fs_usuario/
-/bin/chmod -R +rw /mnt/fs_usuario/
+/bin/chown -R usuario /mnt/fs_usuario
+/bin/chmod -R +rw /mnt/fs_usuario
 /bin/chown usuario /usuario_fs
 /usr/bin/chattr -i /home/usuario/Desktop/
 /bin/chown usuario /home/usuario/Desktop/Documentos
@@ -17,6 +17,10 @@ sleep 40
 /usr/bin/chattr +i /home/usuario/Escritorio/
 
 /bin/mkdir /mnt/fs_usuario/Descargas
+/bin/chown -R usuario /mnt/fs_usuario
+/bin/chmod -R +rw /mnt/fs_usuario
+
+
 #mv /home/usuario/Descargas /mnt/fs_usuario
 #mv /home/usuario/Imágenes /mnt/fs_usuario/
 #mv /home/usuario/Música /mnt/fs_usuario/
