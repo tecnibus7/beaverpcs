@@ -3,6 +3,7 @@
 ##losetup -d /dev/loop1
 ##losetup /dev/loop1 usuario_fs
 ##/bin/mount -t ext3 /dev/loop1 /mnt/fs_usuario_test/
+cd /
 sleep 40
 /bin/chown usuario /mnt/fs_usuario/
 /bin/chmod -R +rw /mnt/fs_usuario/
