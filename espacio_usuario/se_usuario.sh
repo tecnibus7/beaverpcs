@@ -5,7 +5,7 @@
 ##/bin/mount -t ext3 /dev/loop1 /mnt/fs_usuario_test/
 
 /bin/chown usuario /usuario_fs
-/bin/chown usuario /mnt/fs_usuario/
+/bin/chown -R usuario /mnt/fs_usuario/
 /bin/chmod -R +rw /mnt/fs_usuario/
 
 /usr/bin/chattr -i /home/usuario/Desktop/
