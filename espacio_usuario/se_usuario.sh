@@ -19,6 +19,9 @@
 /usr/bin/chattr +i /home/usuario/Escritorio/
 
 /bin/mkdir /mnt/fs_usuario/Descargas
+/bin/chown -R usuario /mnt/fs_usuario/
+/bin/chmod -R +rw /mnt/fs_usuario/
+
 #mv /home/usuario/Descargas /mnt/fs_usuario
 #mv /home/usuario/Imágenes /mnt/fs_usuario/
 #mv /home/usuario/Música /mnt/fs_usuario/
