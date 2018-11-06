@@ -27,7 +27,7 @@ chattr -i /home/usuario/Desktop/
 ln -s /mnt/fs_usuario /home/usuario/Desktop/Documentos
 chattr +i /home/usuario/Desktop/
 
-sh /etc/bus/espacio_usuario/se_usuario.sh 
+/etc/bus/espacio_usuario/se_usuario.sh 
 
 ## chown -R usuario /home/usuario/Documentos_u
 
