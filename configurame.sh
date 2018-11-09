@@ -2,7 +2,7 @@
 
 echo "Iniciado script de instalación bionic-beaver\n"
 echo
-echo 'Versión 2.3-2018-11-06-RC para LUbuntu-server 18.04'
+echo 'Versión 3.0-2018-11-09-alpha para LUbuntu-server 18.04'
 echo
 sleep 2
 if [ $EUID -ne 0 ]; then
@@ -38,6 +38,13 @@ deb http://security.ubuntu.com/ubuntu bionic-security multiverse">/etc/apt/sourc
 echo "= Fuentes para apt-get añadidas ="
 
 
+echo "= Preparando usuario ="
+echo "= Desactivando contraseña para usuario ="
+passwd -d usuario
+echo "= Contraseña para usuario desactivada ="
+
+/etc/bus/copia_usuario.sh
+
 
 ## echo "Asignando clave a usuario"
 ## echo "usuario:usuario" | chpasswd
@@ -53,6 +60,8 @@ echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20
 echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo "= Autoinicio configurado ="
 
+echo "= Usuario configurado ="
+
 echo "= Eliminando escritorios no deseados ="
 echo "Eliminando inicio de OLubuntu"
 rm /usr/share/xsessions/QLubuntu.desktop
@@ -63,38 +72,38 @@ echo "Openbox ya no se puede iniciar de forma sencilla"
 sleep 2
 echo
 
-echo "= Creando configuración de usuario ="
-echo "== Creando enlaces simbolicos =="
+## echo "= Creando configuración de usuario ="
+## echo "== Creando enlaces simbolicos =="
 
-ln -s /usr/share/applications/firefox.desktop /home/usuario/Desktop/Firefox
+## ln -s /usr/share/applications/firefox.desktop /home/usuario/Desktop/Firefox
 
-echo -e "[Desktop Entry]
-Type=Link
-Name=LibreOffice
-Icon=libreoffice-startcenter
-URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Desktop/libreoffice-startcenter.desktop
-ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
-ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
-chattr +i /home/usuario/Desktop/
+## echo -e "[Desktop Entry]
+## Type=Link
+## Name=LibreOffice
+## Icon=libreoffice-startcenter
+## URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Desktop/libreoffice-startcenter.desktop
+## ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Desktop/Mendeley
+## ln -s /etc/bus/pangolinDice/pangolinDice /home/usuario/Desktop/PangolinDice
+## chattr +i /home/usuario/Desktop/
 
-ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
-echo -e "[Desktop Entry]
-Type=Link
-Name=LibreOffice
-Icon=libreoffice-startcenter
-URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
-ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
-ln -e python /etc/bus/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
-chattr +i /home/usuario/Escritorio/
+## ln -s /usr/share/applications/firefox.desktop /home/usuario/Escritorio/Firefox
+## echo -e "[Desktop Entry]
+## Type=Link
+## Name=LibreOffice
+## Icon=libreoffice-startcenter
+## URL=/usr/share/applications/libreoffice-startcenter.desktop">/home/usuario/Escritorio/libreoffice-startcenter.desktop
+## ln -s /usr/share/applications/mendeleydesktop.desktop /home/usuario/Escritorio/Mendeley
+## ln -e python /etc/bus/pangolinDice/pangolinDice /home/usuario/Escritorio/PangolinDice
+## chattr +i /home/usuario/Escritorio/
 
 
-echo "== Enlaces simbolicos creados =="
+## echo "== Enlaces simbolicos creados =="
 
-echo "== Preparando acciones al inicio del escritorio =="
-cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
-echo "== Finalizadas actuaciones al inicio del escritorio =="
+## echo "== Preparando acciones al inicio del escritorio =="
+## cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
+## echo "== Finalizadas actuaciones al inicio del escritorio =="
 
-echo "= Finalizando creación de escritorio ="
+## echo "= Finalizando creación de escritorio ="
 
 # echo "Instalando Mendeley"
 # echo "= Inicio de instalación de Mendeley ="
@@ -117,6 +126,7 @@ sleep 3
 
 echo "= Creación de espacio de trabajo para usuario ="
 /etc/bus/espacio_usuario/ie_usuario.sh
+/etc/bus/espacio_usuario/se_usuario.sh
 # cd /etc/bus
 # Creando fichero de 1Gb
 ## dd if=/dev/zero of=usuario_fs bs=1024 count=1072000
@@ -150,11 +160,11 @@ echo "= Espacio de trabajo montado ="
 echo "Instalando trabajos de crontab para restablecer usuario"
 # cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
 touch /var/spool/cron/crontabs/root
-echo -e "@reboot sh /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "@reboot sh /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "55 20 * * * sh /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "45 20 * * * sh /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "35 20 * * * sh /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "55 20 * * * /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "45 20 * * * /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "35 20 * * * /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
 
 
 ## echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root
