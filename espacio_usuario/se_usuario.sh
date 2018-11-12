@@ -18,7 +18,7 @@
 /bin/chown usuario /home/usuario/Escritorio/Documentos
 /usr/bin/chattr +i /home/usuario/Escritorio/
 
-/bin/mkdir /mnt/fs_usuario/Descargas
+/bin/mkdir -p /mnt/fs_usuario/Descargas
 /bin/chown -R usuario /mnt/fs_usuario/
 /bin/chmod -R +rw /mnt/fs_usuario/
 
