@@ -11,3 +11,9 @@ cd /
 rm /home/usuario/usuario.tar
 
 echo "+++ Configuración inicial para usuario finalizada +++"
+
+################################################################
+# Para crear fichero de espacio de usuario:
+# cd /home
+# tar cvfp usuario/usuario.tar usuario/*
+################################################################
