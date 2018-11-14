@@ -1,0 +1,4 @@
+userdel -f usuario
+crontab -r -u usuario
+adduser --disabled-password --gecos "" usuario ; \
+chpasswd -d usuario
