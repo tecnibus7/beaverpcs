@@ -160,11 +160,13 @@ echo "= Espacio de trabajo montado ="
 echo "Instalando trabajos de crontab para restablecer usuario"
 # cat <(crontab -l -u root <(echo "@reboot /etc/bus/beaverpcs/restableceusuario.sh") | crontab -
 touch /var/spool/cron/crontabs/root
-echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "55 20 * * * /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "45 20 * * * /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "35 20 * * * /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+touch /var/spool/cron/crontabs/usuario
+echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/usuario
+echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/usuario
+echo -e "55 20 * * * /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/usuario
+echo -e "45 20 * * * /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/usuario
+echo -e "35 20 * * * bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | tee -a /var/spool/cron/crontabs/usuario
+echo -e "*/3 * * * * bash -l -c 'sh /etc/bus/apagado/en-mantenimiento.sh' " | tee -a /var/spool/cron/crontabs/usuario
 
 
 ## echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root
