@@ -25,7 +25,7 @@ class image:
 
     def change_image(self, widget, event):
         self.image_num += 1
-	if self.image_num >= 3:
+	if self.image_num >= 4:
 		self.image_num=0
         self.image.set_from_file(self.make_image_name(self.image_num))
         return True
