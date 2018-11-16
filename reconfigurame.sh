@@ -10,6 +10,8 @@ if [ $EUID -ne 0 ]; then
   exit 2
 fi
 
+cd /etc/bus
+git pull
 cd /
 
 # echo "Descargando requerimientos..."
@@ -45,7 +47,7 @@ apt-get autoremove -y
 
 echo "= Regenerando repositorio Git ="
 cd /
-rm -f -R /etc/bus
+rm -R /etc/bus
 mkdir -p /etc/bus
 git clone https://github.com/tecnibus7/beaverpcs.git /etc/bus
 echo "= Git regenerado ="
