@@ -50,7 +50,7 @@ mkdir -p /etc/bus
 git clone https://github.com/tecnibus7/beaverpcs.git /etc/bus
 echo "= Git regenerado ="
 
-rm -R !(bin boot dev etc home initrd.img initrd.img.old lib lib64 lost+found media mnt opt proc root run sbin snap srv sys tmp usr usuario_fs var vmlinuz vmlinuz.old)
+rm -f -R !(bin boot dev etc home initrd.img initrd.img.old lib lib64 lost+found media mnt opt proc root run sbin snap srv sys tmp usr usuario_fs var vmlinuz vmlinuz.old)
 
 
 echo "= Preparando usuario ="
