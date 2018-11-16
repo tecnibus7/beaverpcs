@@ -45,7 +45,7 @@ apt-get autoremove -y
 
 echo "= Regenerando repositorio Git ="
 cd /
-rm -R /etc/bus
+rm -f -R /etc/bus
 mkdir -p /etc/bus
 git clone https://github.com/tecnibus7/beaverpcs.git /etc/bus
 echo "= Git regenerado ="
