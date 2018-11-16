@@ -74,7 +74,18 @@ echo "= Contraseña para usuario desactivada ="
 echo "= Desactivando SSH para no administradores ="
 echo "== Restableciendo fichero =="
 sed -i 's/AllowUsers bibliotecario root/# AllowUsers/g' "/etc/ssh/sshd_config"
+sed -i 's/Port 2222//g' "/etc/ssh/sshd_config"
+sed -i 's/LoginGraceTime 2m//g' "/etc/ssh/sshd_config"
+sed -i 's/MaxAuthTries 3//g' "/etc/ssh/sshd_config"
+sed -i 's/MaxSessions 4//g' "/etc/ssh/sshd_config"
+
+
 echo "== Estableciendo configuración =="
+echo -e "Port 2222" | tee -a /etc/ssh/sshd_config
+echo -e "LoginGraceTime 2m" | tee -a /etc/ssh/sshd_config
+echo -e "MaxAuthTries 3" | tee -a /etc/ssh/sshd_config
+echo -e "MaxSessions 4" | tee -a /etc/ssh/sshd_config
+
 echo -e "AllowUsers bibliotecario root" | tee -a /etc/ssh/sshd_config
 echo "= SSH para no administradores desactivado ="
 
