@@ -40,7 +40,7 @@ deb http://security.ubuntu.com/ubuntu bionic-security universe
 deb http://security.ubuntu.com/ubuntu bionic-security multiverse">/etc/apt/sources.list
 echo "= Fuentes para apt-get añadidas ="
 
-apt-get updates
+apt-get update
 apt-get upgrade -y
 apt --fix-broken install -y
 apt-get autoremove -y
@@ -51,8 +51,6 @@ rm -R /etc/bus
 mkdir -p /etc/bus
 git clone https://github.com/tecnibus7/beaverpcs.git /etc/bus
 echo "= Git regenerado ="
-
-rm -f -R !(bin boot dev etc home initrd.img initrd.img.old lib lib64 lost+found media mnt opt proc root run sbin snap srv sys tmp usr usuario_fs var vmlinuz vmlinuz.old)
 
 
 echo "= Preparando usuario ="
