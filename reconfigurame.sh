@@ -79,6 +79,10 @@ echo -e "AllowUsers bibliotecario root" | tee -a /etc/ssh/sshd_config
 echo "= SSH para no administradores desactivado ="
 
 echo "= Configurando autoinicio de usuario ="
+sed -i 's/autologin-user=usuario//g' "/usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf"
+sed -i 's/autologin-user-timeout=0//g' "/usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf"
+sed -i 's/numlock=1//g' "/usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf"
+
 echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 # echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
