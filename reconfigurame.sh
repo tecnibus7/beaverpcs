@@ -10,6 +10,13 @@ if [ $EUID -ne 0 ]; then
   exit 2
 fi
 
+apt-get updates
+apt-get upgrade -y
+apt --fix-broken install -y
+apt-get autoremove -y
+cd /etc/bus
+git pull
+cd /
 
 # echo "Descargando requerimientos..."
 # mkdir -p /etc/bus
