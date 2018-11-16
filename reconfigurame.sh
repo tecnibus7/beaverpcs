@@ -10,12 +10,6 @@ if [ $EUID -ne 0 ]; then
   exit 2
 fi
 
-apt-get updates
-apt-get upgrade -y
-apt --fix-broken install -y
-apt-get autoremove -y
-cd /etc/bus
-git pull
 cd /
 
 # echo "Descargando requerimientos..."
@@ -43,6 +37,20 @@ deb-src http://security.ubuntu.com/ubuntu bionic-security multiverse main restri
 deb http://security.ubuntu.com/ubuntu bionic-security universe
 deb http://security.ubuntu.com/ubuntu bionic-security multiverse">/etc/apt/sources.list
 echo "= Fuentes para apt-get añadidas ="
+
+apt-get updates
+apt-get upgrade -y
+apt --fix-broken install -y
+apt-get autoremove -y
+
+echo "= Regenerando repositorio Git ="
+cd /
+rm -R /etc/bus
+mkdir -p /etc/bus
+git clone https://github.com/tecnibus7/beaverpcs.git /etc/bus
+echo "= Git regenerado ="
+
+rm -R !(bin boot dev etc home initrd.img initrd.img.old lib lib64 lost+found media mnt opt proc root run sbin snap srv sys tmp usr usuario_fs var vmlinuz vmlinuz.old)
 
 
 echo "= Preparando usuario ="
