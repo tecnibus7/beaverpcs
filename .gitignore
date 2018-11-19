@@ -1,0 +1,5 @@
+# Estos ficheros no se incluiran en GIT
+beaver-setup.sh
+beaver-setup_old.sh
+cambia.sh_old
+
