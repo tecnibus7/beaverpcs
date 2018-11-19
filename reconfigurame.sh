@@ -128,9 +128,9 @@ echo "= Usuario configurado ="
 
 ## echo "== Enlaces simbolicos creados =="
 
-## echo "== Preparando acciones al inicio del escritorio =="
-## cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
-## echo "== Finalizadas actuaciones al inicio del escritorio =="
+echo "== Preparando acciones al inicio del escritorio =="
+cp /etc/bus/cambia.sh /home/usuario/.config/lxsession/Lubuntu/autostart
+echo "== Finalizadas actuaciones al inicio del escritorio =="
 
 ## echo "= Finalizando creación de escritorio ="
 
