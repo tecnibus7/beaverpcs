@@ -37,6 +37,7 @@ deb http://security.ubuntu.com/ubuntu bionic-security universe
 deb http://security.ubuntu.com/ubuntu bionic-security multiverse">/etc/apt/sources.list
 echo "= Fuentes para apt-get añadidas ="
 
+/etc/bus/config/disable-ipv6.sh
 
 echo "= Preparando usuario ="
 echo "= Desactivando contraseña para usuario ="
