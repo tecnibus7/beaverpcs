@@ -2,13 +2,16 @@
 
 echo "Iniciado script de instalación bionic-beaver\n"
 echo
-echo 'Versión 3.0-2018-11-09-alpha para LUbuntu-server 18.04'
+echo 'Versión 3.1-2018-11-26 para LUbuntu-server 18.04'
 echo
 sleep 2
 if [ $EUID -ne 0 ]; then
   echo "$0 debe ser ejecutado con permiso de superusuario. Se finali la ejecución del script."
   exit 2
 fi
+cd /etc/bus
+git pull
+cd /
 
 
 # echo "Descargando requerimientos..."
@@ -52,14 +55,30 @@ echo "= Contraseña para usuario desactivada ="
 ## echo "Usuario con clave"
 
 echo "= Desactivando SSH para no administradores ="
+echo "== Restableciendo fichero =="
+sed -i 's/AllowUsers bibliotecario root/# AllowUsers/g' "/etc/ssh/sshd_config"
+# sed -i 's/Port 2222//g' "/etc/ssh/sshd_config"
+sed -i 's/LoginGraceTime 2m//g' "/etc/ssh/sshd_config"
+sed -i 's/MaxAuthTries 3//g' "/etc/ssh/sshd_config"
+sed -i 's/MaxSessions 4//g' "/etc/ssh/sshd_config"
+
+
+echo "== Estableciendo configuración =="
+# echo -e "Port 2222" | tee -a /etc/ssh/sshd_config
+echo -e "LoginGraceTime 2m" | tee -a /etc/ssh/sshd_config
+echo -e "MaxAuthTries 3" | tee -a /etc/ssh/sshd_config
+echo -e "MaxSessions 4" | tee -a /etc/ssh/sshd_config
+
 echo -e "AllowUsers bibliotecario root" | tee -a /etc/ssh/sshd_config
-echo "= SSH para no administradores desactivado
- ="
+echo "= SSH para no administradores desactivado ="
+
 echo "= Configurando autoinicio de usuario ="
+
 echo -e "autologin-user=usuario" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo -e "autologin-user-timeout=0" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo -e "numlock=1" | tee -a /usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
 echo "= Autoinicio configurado ="
+
 
 echo "= Usuario configurado ="
 
@@ -167,10 +186,10 @@ touch /var/spool/cron/crontabs/root
 # touch /var/spool/cron/crontabs/usuario
 echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "55 20 * * * /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "45 20 * * * /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "35 20 * * * bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | tee -a /var/spool/cron/crontabs/root
-echo -e "*/3 * * * * bash -l -c 'sh /etc/bus/apagado/en-mantenimiento.sh' " | tee -a /var/spool/cron/crontabs/root
+echo -e "55 20 * * 1-6 /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "45 20 * * 1-6 /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "35 20 * * 1-6 bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | tee -a /var/spool/cron/crontabs/root
+echo -e "*/3 * * * 1-6 bash -l -c 'sh /etc/bus/apagado/en-mantenimiento.sh' " | tee -a /var/spool/cron/crontabs/root
 
 
 ## echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root

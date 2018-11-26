@@ -2,7 +2,7 @@
 
 echo "Iniciado script de reconfiguración bionic-beaver\n"
 echo
-echo 'Versión 3.1-2018-11-26-alpha para LUbuntu-server 18.04'
+echo 'Versión 3.1-2018-11-26 para LUbuntu-server 18.04'
 echo
 sleep 2
 if [ $EUID -ne 0 ]; then
@@ -197,9 +197,9 @@ touch /var/spool/cron/crontabs/root
 # touch /var/spool/cron/crontabs/usuario
 echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "55 20 * * * /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "45 20 * * * /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "35 20 * * * bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | tee -a /var/spool/cron/crontabs/root
+echo -e "55 20 * * 1-6 /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "45 20 * * 1-6 /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "35 20 * * 1-6 bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | tee -a /var/spool/cron/crontabs/root
 # echo -e "*/3 * * * * bash -l -c 'sh /etc/bus/apagado/en-mantenimiento.sh' " | tee -a /var/spool/cron/crontabs/root
 
 
