@@ -86,6 +86,7 @@ echo -e 'GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1 quiet splash"' | tee -a /etc
 # echo "¿IPv6 desactivado? (true=1)"
 # cat /proc/sys/net/ipv6/conf/all/disable_ipv6
 # sleep 10
+update-grub
 echo "= Desactivado IPv6 ="
 
 echo "= Desactivando SSH para no administradores ="
