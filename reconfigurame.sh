@@ -195,6 +195,7 @@ crontab -u bibliotecario -r
 crontab -u usuario -r
 touch /var/spool/cron/crontabs/root
 # touch /var/spool/cron/crontabs/usuario
+echo -e "@reboot /etc/bus/config/reget-ip.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "55 20 * * 1-6 /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
