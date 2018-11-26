@@ -208,6 +208,8 @@ echo -e "35 20 * * 1-6 bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | 
 
 ## echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root
 ## echo -e "@reboot /bin/bash /etc/bus/restableceusuario.sh" | tee -a /var/spool/cron/crontabs/root
+apt-get remove --auto-remove gnome-screensaver -y
+apt-get purgue gnome-screensaver -y
 echo "Finalizada instalación de trabajos de crontab"
 
 
