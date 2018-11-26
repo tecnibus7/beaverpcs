@@ -2,7 +2,7 @@
 
 echo "Iniciado script de reconfiguración bionic-beaver\n"
 echo
-echo 'Versión 3.0-2018-11-09-alpha para LUbuntu-server 18.04'
+echo 'Versión 3.1-2018-11-26-alpha para LUbuntu-server 18.04'
 echo
 sleep 2
 if [ $EUID -ne 0 ]; then
@@ -70,6 +70,21 @@ echo "= Contraseña para usuario desactivada ="
 ## echo "Asignando clave a usuario"
 ## echo "usuario:usuario" | chpasswd
 ## echo "Usuario con clave"
+echo "= Desactivando IPv6 ="
+
+sed -i 's/net.ipv6.conf.all.disable_ipv6 = 1//g' "/etc/sysctl.d/99-sysctl.conf"
+sed -i 's/net.ipv6.conf.default.disable_ipv6 = 1//g' "/etc/sysctl.d/99-sysctl.conf"
+sed -i 's/net.ipv6.conf.lo.disable_ipv6 = 1//g' "/etc/sysctl.d/99-sysctl.conf"
+
+echo -e "net.ipv6.conf.all.disable_ipv6 = 1" | tee -a /etc/sysctl.d/99-sysctl.conf
+echo -e "net.ipv6.conf.default.disable_ipv6 = 1" | tee -a /etc/sysctl.d/99-sysctl.conf
+echo -e "net.ipv6.conf.lo.disable_ipv6 = 1" | tee -a /etc/sysctl.d/99-sysctl.conf
+sysctl -p
+sleep 2
+echo "¿IPv6 desactivado? (true=1)"
+cat /proc/sys/net/ipv6/conf/all/disable_ipv6
+sleep 10
+echo "= Desactivado IPv6 ="
 
 echo "= Desactivando SSH para no administradores ="
 echo "== Restableciendo fichero =="
