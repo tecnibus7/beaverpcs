@@ -65,9 +65,6 @@ sleep 10
 userdel -f usuario
 echo "== Recreando usuario =="
 adduser --disabled-password --gecos "" usuario
-echo "= Desactivando contraseña para usuario ="
-passwd -d usuario
-echo "= Contraseña para usuario desactivada ="
 
 /etc/bus/copia_usuario.sh
 
@@ -215,6 +212,10 @@ echo -e "35 20 * * 1-6 bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | 
 apt-get remove --auto-remove gnome-screensaver -y
 apt-get purgue gnome-screensaver -y
 echo "Finalizada instalación de trabajos de crontab"
+
+echo "= Desactivando contraseña para usuario ="
+passwd -d usuario
+echo "= Contraseña para usuario desactivada ="
 
 
 echo "El instalador ha finalizado. Ejecute shutdown -r now o espere un minuto"
