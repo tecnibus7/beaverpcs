@@ -59,7 +59,7 @@ echo "== Eliminando usuario =="
 sleep 1
 /usr/bin/who
 sleep 10
-pkill -9 -t tty7
+/usr/bin/pkill -9 -t tty7
 /usr/bin/chattr -i /home/usuario/Escritorio/
 /usr/bin/chattr -i /home/usuario/Desktop/
 userdel -f usuario
