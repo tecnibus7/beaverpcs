@@ -10,9 +10,6 @@ if [ $EUID -ne 0 ]; then
   exit 2
 fi
 
-cd /etc/bus
-git pull
-cd /
 
 # echo "Descargando requerimientos..."
 # mkdir -p /etc/bus
@@ -46,11 +43,11 @@ apt --fix-broken install -y
 apt-get autoremove -y
 
 echo "= Regenerando repositorio Git ="
-cd /
-rm -R /etc/bus
-mkdir -p /etc/bus
-git clone https://github.com/tecnibus7/beaverpcs.git /etc/bus
-echo "= Git regenerado ="
+# cd /
+# rm -R /etc/bus
+# mkdir -p /etc/bus
+# git clone https://github.com/tecnibus7/beaverpcs.git /etc/bus
+# echo "= Git regenerado ="
 
 /etc/bus/config/disable-ipv6.sh
 
