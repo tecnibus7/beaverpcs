@@ -1,4 +1,4 @@
 #!/bin/bash
 /sbin/dhclient -r
-/sbin/dhclient -v >> /home/usuario/.reget-ip.txt
+/home/usuario/.reget-ip.txt</sbin/dhclient -v
 # /usr/bin/touch /home/bibliotecario/ejecuta.txt
