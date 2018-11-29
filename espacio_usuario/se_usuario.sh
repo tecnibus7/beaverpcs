@@ -8,10 +8,10 @@ cd /
 /bin/chown -R usuario /mnt/fs_usuario/
 /bin/chmod -R +rw /mnt/fs_usuario/
 
-/usr/bin/chattr -i /home/usuario/Desktop/
-/bin/mkdir /home/usuario/Desktop/Descargas
-/bin/chown usuario /home/usuario/Desktop/Descargas
-/usr/bin/chattr +i /home/usuario/Desktop/
+#/usr/bin/chattr -i /home/usuario/Desktop/
+/bin/mkdir /mnt/fs_usuario/Descargas
+/bin/chown usuario /mnt/fs_usuario/Descargas
+#/usr/bin/chattr +i /home/usuario/Desktop/
 
 # /usr/bin/chattr -i /home/usuario/Escritorio/
 # /bin/mkdir /home/usuario/Escritorio/Documentos
