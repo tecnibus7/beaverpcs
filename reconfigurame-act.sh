@@ -38,9 +38,9 @@ deb http://security.ubuntu.com/ubuntu bionic-security multiverse">/etc/apt/sourc
 echo "= Fuentes para apt-get añadidas ="
 
 apt-get update
-apt-get upgrade -y
-apt --fix-broken install -y
-apt-get autoremove -y
+#apt-get upgrade -y
+#apt --fix-broken install -y
+#apt-get autoremove -y
 
 echo "= Regenerando repositorio Git ="
 # cd /
