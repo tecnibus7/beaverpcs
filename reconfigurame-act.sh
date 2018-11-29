@@ -67,6 +67,8 @@ echo "== Recreando usuario =="
 
 /etc/bus/copia_usuario.sh
 
+/usr/bin/chattr +i /home/usuario
+
 
 ## echo "Asignando clave a usuario"
 ## echo "usuario:usuario" | chpasswd
