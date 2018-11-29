@@ -50,6 +50,7 @@ echo "= Contraseña para usuario desactivada ="
 /etc/bus/copia_usuario.sh
 
 
+/usr/bin/chattr +i /home/usuario
 ## echo "Asignando clave a usuario"
 ## echo "usuario:usuario" | chpasswd
 ## echo "Usuario con clave"

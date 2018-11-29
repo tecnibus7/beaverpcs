@@ -55,6 +55,7 @@ echo "= Preparando usuario ="
 echo "== Eliminando usuario =="
 /usr/bin/who
 /usr/bin/pkill -9 -t tty7
+/usr/bin/chattr -i /home/usuario
 # /usr/bin/chattr -i /home/usuario/Escritorio/
 /usr/bin/chattr -i /home/usuario/Desktop/
 /bin/rm -R /home/usuario
@@ -198,9 +199,9 @@ crontab -u bibliotecario -r
 crontab -u usuario -r
 touch /var/spool/cron/crontabs/root
 # touch /var/spool/cron/crontabs/usuario
-echo -e "@reboot /etc/bus/config/reget-ip.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh " | tee -a /var/spool/cron/crontabs/root
+echo -e "@reboot /etc/bus/config/reget-ip.sh" | tee -a /var/spool/cron/crontabs/root
+echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh" | tee -a /var/spool/cron/crontabs/root
+echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh" | tee -a /var/spool/cron/crontabs/root
 echo -e "55 20 * * 1-6 /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "45 20 * * 1-6 /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "35 20 * * 1-6 bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | tee -a /var/spool/cron/crontabs/root
