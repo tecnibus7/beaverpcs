@@ -53,10 +53,9 @@ echo "= Regenerando repositorio Git ="
 
 echo "= Preparando usuario ="
 echo "== Eliminando usuario =="
-sleep 1
 /usr/bin/who
 /usr/bin/pkill -9 -t tty7
-/usr/bin/chattr -i /home/usuario/Escritorio/
+# /usr/bin/chattr -i /home/usuario/Escritorio/
 /usr/bin/chattr -i /home/usuario/Desktop/
 /etc/bus/espacio_usuario/de_usuario.sh
 /usr/sbin/userdel -f usuario
