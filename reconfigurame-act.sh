@@ -216,7 +216,7 @@ passwd -d usuario
 echo "= Contraseña para usuario desactivada ="
 
 echo "= Bloqueando usuario para escritura fuera de espacio de trabajo ="
-/usr/bin/chattr +i /home/usuario
+# /usr/bin/chattr +i /home/usuario
 echo "= Carpetas de usuario protejidas contra escritura ="
 
 echo "El instalador ha finalizado. Ejecute shutdown -r now o espere un minuto"
