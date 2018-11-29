@@ -2,7 +2,7 @@
 
 echo "Iniciado script de instalación bionic-beaver\n"
 echo
-echo 'Versión 3.1-2018-11-26 para LUbuntu-server 18.04'
+echo 'Versión 3.2-2018-11-29 para LUbuntu-server 18.04'
 echo
 sleep 2
 if [ $EUID -ne 0 ]; then
