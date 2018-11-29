@@ -55,13 +55,14 @@ echo "= Preparando usuario ="
 echo "== Eliminando usuario =="
 sleep 1
 /usr/bin/who
-sleep 10
 /usr/bin/pkill -9 -t tty7
 /usr/bin/chattr -i /home/usuario/Escritorio/
 /usr/bin/chattr -i /home/usuario/Desktop/
-userdel -f usuario
+/etc/bus/espacio_usuario/de_usuario.sh
+/usr/sbin/userdel -f usuario
+/bin/rm -R /home/usuario
 echo "== Recreando usuario =="
-adduser --disabled-password --gecos "" usuario
+/usr/sbin/adduser --disabled-password --gecos "" usuario
 
 /etc/bus/copia_usuario.sh
 
@@ -153,7 +154,7 @@ echo "== Finalizadas actuaciones al inicio del escritorio =="
 sleep 3
 
 echo "= Creación de espacio de trabajo para usuario ="
-/etc/bus/espacio_usuario/de_usuario.sh
+#/etc/bus/espacio_usuario/de_usuario.sh
 /etc/bus/espacio_usuario/ie_usuario.sh
 /etc/bus/espacio_usuario/se_usuario.sh
 # cd /etc/bus
@@ -214,6 +215,9 @@ echo "= Desactivando contraseña para usuario ="
 passwd -d usuario
 echo "= Contraseña para usuario desactivada ="
 
+echo "= Bloqueando usuario para escritura fuera de espacio de trabajo ="
+/usr/bin/chattr +i /home/usuario
+echo "= Carpetas de usuario protejidas contra escritura ="
 
 echo "El instalador ha finalizado. Ejecute shutdown -r now o espere un minuto"
 shutdown -r +1
