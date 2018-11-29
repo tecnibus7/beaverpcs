@@ -56,10 +56,10 @@ echo "== Eliminando usuario =="
 /usr/bin/who
 /usr/bin/pkill -9 -t tty7
 # /usr/bin/chattr -i /home/usuario/Escritorio/
-/usr/bin/chattr -i /home/usuario/Desktop/
+# /usr/bin/chattr -i /home/usuario/Desktop/
 /etc/bus/espacio_usuario/de_usuario.sh
 /usr/sbin/userdel -f usuario
-/bin/rm -R /home/usuario
+# /bin/rm -R /home/usuario
 echo "== Recreando usuario =="
 /usr/sbin/adduser --disabled-password --gecos "" usuario
 
@@ -155,6 +155,7 @@ sleep 3
 echo "= Creación de espacio de trabajo para usuario ="
 #/etc/bus/espacio_usuario/de_usuario.sh
 /etc/bus/espacio_usuario/ie_usuario.sh
+sleep 30
 /etc/bus/espacio_usuario/se_usuario.sh
 # cd /etc/bus
 # Creando fichero de 1Gb
