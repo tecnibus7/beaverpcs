@@ -160,7 +160,7 @@ sleep 3
 echo "= Creación de espacio de trabajo para usuario ="
 #/etc/bus/espacio_usuario/de_usuario.sh
 /etc/bus/espacio_usuario/ie_usuario.sh
-sleep 30
+
 /etc/bus/espacio_usuario/se_usuario.sh
 # cd /etc/bus
 # Creando fichero de 1Gb
