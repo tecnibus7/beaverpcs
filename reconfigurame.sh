@@ -2,7 +2,7 @@
 
 echo "Iniciado script de reconfiguración bionic-beaver\n"
 echo
-echo 'Versión 3.2-2018-11-29 para LUbuntu-server 18.04'
+echo 'Versión 3.3-2018-12-05 para LUbuntu-server 18.04'
 echo
 sleep 2
 if [ $EUID -ne 0 ]; then

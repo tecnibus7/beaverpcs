@@ -5,7 +5,7 @@ sleep 1
 echo "   INFORMACIÓN DE LA INSTALACIÓN"
 echo "   Sistema Operativo"
 lsb_release -a
-echo "   (re)configurame v3.2"
+echo "   (re)configurame v3.3"
 echo "   Información de hora"
 echo "   Hora Hardware"
 $NETTIME
