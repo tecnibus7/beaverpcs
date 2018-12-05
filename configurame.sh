@@ -9,6 +9,11 @@ if [ $EUID -ne 0 ]; then
   echo "$0 debe ser ejecutado con permiso de superusuario. Se finali la ejecución del script."
   exit 2
 fi
+
+/etc/bus/config/ajustahora.sh
+sleep 2
+
+
 cd /etc/bus
 git pull
 cd /

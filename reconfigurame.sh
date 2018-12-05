@@ -10,6 +10,9 @@ if [ $EUID -ne 0 ]; then
   exit 2
 fi
 
+/etc/bus/config/ajustahora.sh
+sleep 2
+
 cd /etc/bus
 git pull
 cd /
