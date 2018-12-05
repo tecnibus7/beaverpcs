@@ -1,4 +1,4 @@
 #!/bin/bash
-hwclock --systohc
-date | tee -a /home/bibliotecario/hora.log
-hwclock -r | tee -a /home/bibliotecario/hora.log
+/sbin/hwclock --systohc
+/bin/date | /usr/bin/tee -a /home/bibliotecario/hora.log
+/sbin/hwclock -r | tee -a /home/bibliotecario/hora.log
