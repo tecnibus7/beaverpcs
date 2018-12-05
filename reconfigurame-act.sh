@@ -206,7 +206,7 @@ echo -e "30 */4 * * 1-7 /etc/bus/config/ajustahora.sh" | tee -a /var/spool/cron/
 echo -e "55 20 * * 1-6 /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/usuario
 echo -e "45 20 * * 1-6 /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/usuario
 echo -e "35 20 * * 1-6 /etc/bus/apagado/notifica-apagado.sh" | tee -a /var/spool/cron/crontabs/usuario
-# echo -e "*/3 * * * * bash -l -c 'sh /etc/bus/apagado/en-mantenimiento.sh' " | tee -a /var/spool/cron/crontabs/root
+echo -e "*/3 * * * * /etc/bus/apagado/en-mantenimiento.sh" | tee -a /var/spool/cron/crontabs/usuario
 
 
 ## echo -e "@reboot /bin/bash /etc/bus/apagado/apaga-equipo.sh" | tee -a /var/spool/cron/crontabs/root
