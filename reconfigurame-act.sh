@@ -202,9 +202,10 @@ touch /var/spool/cron/crontabs/root
 echo -e "@reboot /etc/bus/config/reget-ip.sh" | tee -a /var/spool/cron/crontabs/root
 echo -e "@reboot /etc/bus/espacio_usuario/se_usuario.sh" | tee -a /var/spool/cron/crontabs/root
 echo -e "@reboot /etc/bus/espacio_usuario/restaura_usuario.sh" | tee -a /var/spool/cron/crontabs/root
+echo -e "30 */4 * * 1-7 /etc/bus/config/ajustahora.sh" | tee -a /var/spool/cron/crontabs/root
 echo -e "55 20 * * 1-6 /etc/bus/apagado/notifica-ultimo-apagado.sh " | tee -a /var/spool/cron/crontabs/root
 echo -e "45 20 * * 1-6 /etc/bus/apagado/notifica-apagado.sh " | tee -a /var/spool/cron/crontabs/root
-echo -e "35 20 * * 1-6 bash -l -c 'sh /etc/bus/apagado/notifica-apagado.sh' " | tee -a /var/spool/cron/crontabs/root
+echo -e "35 20 * * 1-6 sh /etc/bus/apagado/notifica-apagado.sh" | tee -a /var/spool/cron/crontabs/root
 # echo -e "*/3 * * * * bash -l -c 'sh /etc/bus/apagado/en-mantenimiento.sh' " | tee -a /var/spool/cron/crontabs/root
 
 
