@@ -1,4 +1,11 @@
 #!/bin/bash
+echo
+sleep 2
+if [ $EUID -ne 0 ]; then
+  echo "No tiene permiso para ejecutar $0 ."
+  exit 2
+fi
+
 NETTIME=hwclock
 SYSTIME=date
 sleep 1
